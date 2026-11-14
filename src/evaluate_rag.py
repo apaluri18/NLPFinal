@@ -3,6 +3,7 @@ import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer  # type: ignore
 from sentence_transformers import SentenceTransformer
 import time
+import os
 
 # 1. Initialize E5 Retriever
 print("Loading E5 retriever...")
@@ -43,6 +44,8 @@ def evaluate_claim(claim, evidence):
     response = tokenizer.decode(outputs[0][inputs.input_ids.shape[1]:], skip_special_tokens=True)
     return response, latency
 
+
+
 # Test the pipeline
 if __name__ == "__main__":
     test_claim = "The system automatically deletes inactive users after 90 days."
@@ -52,3 +55,36 @@ if __name__ == "__main__":
     result, latency = evaluate_claim(test_claim, test_evidence)
     print(f"\nExecution Time: {latency:.2f}s")
     print(f"Result:\n{result}")
+
+    # --- NEW BATCH EXECUTION LOGIC ---
+    data_path = "data/processed/corpus_chunks.csv"
+    if os.path.exists(data_path):
+        print(f"\nFound {data_path}. Running batch evaluation on 50 samples...")
+        df = pd.read_csv(data_path).sample(50, random_state=42)
+        
+        results = []
+        for i, row in df.iterrows():
+            claim = row['title'] # In WICE, the 'title' column holds the claim
+            evidence = row['chunk_text']
+            
+            # (In a full pipeline, you'd run E5 here to retrieve the evidence)
+            # For this baseline test, WICE already pairs the claim with the evidence
+            
+            try:
+                json_result, latency = evaluate_claim(claim, evidence)
+                results.append({
+                    "doc_id": row['doc_id'],
+                    "claim": claim,
+                    "evidence": evidence,
+                    "raw_judge_output": json_result,
+                    "latency": latency
+                })
+            except Exception as e:
+                print(f"Failed on index {i}: {e}")
+                
+        output_df = pd.DataFrame(results)
+        os.makedirs("data/ground_truth", exist_ok=True)
+        output_df.to_csv("data/ground_truth/judge_evaluations.csv", index=False)
+        print("Successfully exported 50 evaluations to data/ground_truth/judge_evaluations.csv")
+    else:
+        print(f"\nNo data found at {data_path}. Run chunk_documents.py first.")

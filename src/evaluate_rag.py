@@ -1,6 +1,6 @@
 import pandas as pd
 import torch
-from transformers import AutoModelForCausalLM, AutoTokenizer
+from transformers import AutoModelForCausalLM, AutoTokenizer  # type: ignore
 from sentence_transformers import SentenceTransformer
 import time
 
@@ -10,7 +10,7 @@ retriever = SentenceTransformer('intfloat/e5-small-v2')
 
 # 2. Initialize Qwen Judge 
 print("Loading Qwen Judge...")
-model_id = "Qwen/Qwen1.5-0.5B-Instruct" 
+model_id = "Qwen/Qwen2.5-0.5B-Instruct" # Or try "Qwen/Qwen2.5-0.8B-Instruct"
 tokenizer = AutoTokenizer.from_pretrained(model_id)
 judge_model = AutoModelForCausalLM.from_pretrained(
     model_id, 
@@ -37,7 +37,7 @@ def evaluate_claim(claim, evidence):
     inputs = tokenizer([text], return_tensors="pt").to(judge_model.device)
     
     start_time = time.time()
-    outputs = judge_model.generate(**inputs, max_new_tokens=150, temperature=0.1)
+    outputs = judge_model.generate(**inputs, max_new_tokens=150, temperature=0.1) # type: ignore
     latency = time.time() - start_time
     
     response = tokenizer.decode(outputs[0][inputs.input_ids.shape[1]:], skip_special_tokens=True)

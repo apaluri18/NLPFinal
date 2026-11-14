@@ -1,0 +1,27 @@
+# .gitignore
+.DS_Store
+__pycache__/
+*.pyc
+
+# Environments
+.env
+.venv
+env/
+venv/
+.conda/
+
+# Data and Model Weights
+data/
+*.csv
+*.json
+*.pt
+*.safetensors
+*.bin
+
+# LaTeX auxiliary files (for the NeurIPS report)
+report/*.aux
+report/*.log
+report/*.out
+report/*.bbl
+report/*.blg
+report/*.synctex.gz

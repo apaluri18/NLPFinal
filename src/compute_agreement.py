@@ -1,42 +1,57 @@
+import re
+import sys
 import pandas as pd
-import numpy as np
-from sklearn.metrics import cohen_kappa_score, accuracy_score
+from sklearn.metrics import cohen_kappa_score, accuracy_score, recall_score, f1_score
 
-# 1. Load the evaluations from your local directory
-file_path = "data/ground_truth/multi_model_evaluations.csv"
+# Switch between "multi_model_evaluations_3.csv" (Zero-Shot) and "multi_model_evaluations_cot_4.csv" (CoT)
+file_path = sys.argv[1] if len(sys.argv) > 1 else "data/ground_truth/multi_model_evaluations.csv"
 df = pd.read_csv(file_path)
 
-# 2. Extract the binary prediction from the LLM's raw output
 def extract_prediction(text):
-    text = str(text).lower()
-    if "unfaithful" in text or "not supported" in text or "false" in text:
-        return 0
-    return 1
+    text = str(text)
+    # Strip the echoed prompt if this is a CoT output
+    if "Reasoning:" in text:
+        generated = text.split("Reasoning:", 1)[-1].lower()
+    elif "Evaluate faithfulness..." in text:
+        generated = text.split("Evaluate faithfulness...", 1)[-1].lower()
+    else:
+        generated = text.lower()
 
-df['llm_prediction'] = df['raw_judge_output'].apply(extract_prediction)
+    # Find the LAST explicit verdict mentioned in the generated response
+    matches = re.findall(r"\b(unfaithful|not supported|faithful|supported)\b", generated)
+    if matches:
+        last_verdict = matches[-1]
+        return 0 if last_verdict in ("unfaithful", "not supported") else 1
+    return 1  # Default fallback if model fails to output a clear verdict
 
-# 3. Ensure human ground truth is available
-if 'ground_truth' not in df.columns:
-    print("⚠️ 'ground_truth' column missing! Using mock data for demonstration.")
-    df['ground_truth'] = np.random.choice([0, 1], size=len(df))
+df["llm_prediction"] = df["raw_judge_output"].apply(extract_prediction)
 
-# 4. Calculate metrics per model
+# Merge human ground truth with strict binary matching
+truth_df = pd.read_csv("data/raw/enterprise_docs.csv")
+df = df.merge(truth_df[["title", "ground_truth_label"]], left_on="claim", right_on="title", how="left")
+df["ground_truth"] = df["ground_truth_label"].apply(
+    lambda x: 1 if str(x).strip().lower() == "supported" else 0
+)
+
+print("\n--- Distribution Check ---")
+print("Ground Truth:\n", df["ground_truth"].value_counts().to_dict())
+print("LLM Predictions:\n", df["llm_prediction"].value_counts().to_dict())
+
 results = []
-for model in df['model_name'].unique():
-    model_df = df[df['model_name'] == model]
-
-    kappa = cohen_kappa_score(model_df['ground_truth'], model_df['llm_prediction'])
-    acc = accuracy_score(model_df['ground_truth'], model_df['llm_prediction'])
-    avg_latency = model_df['latency'].mean()
+for model in df["model_name"].unique():
+    m_df = df[df["model_name"] == model]
+    y_true = m_df["ground_truth"]
+    y_pred = m_df["llm_prediction"]
 
     results.append({
-        "Model": model.split('/')[-1],
-        "Cohen's Kappa": round(kappa, 3),
-        "Accuracy": round(acc, 3),
-        "Avg Latency (s)": round(avg_latency, 2)
+        "Model": model.split("/")[-1],
+        "Cohen's Kappa": round(cohen_kappa_score(y_true, y_pred), 3),
+        "Accuracy": round(accuracy_score(y_true, y_pred), 3),
+        "Hallucination Recall": round(recall_score(y_true, y_pred, pos_label=0, zero_division=0), 3),
+        "Macro-F1": round(f1_score(y_true, y_pred, average="macro", zero_division=0), 3),
+        "Avg Latency (s)": round(m_df["latency"].mean(), 2),
     })
 
-# 5. Display the final NeurIPS-ready table
 metrics_df = pd.DataFrame(results).sort_values(by="Cohen's Kappa", ascending=False)
-print("\n### Multi-Model RAG Evaluation Results")
+print(f"\n### Results for {file_path}")
 print(metrics_df.to_markdown(index=False))

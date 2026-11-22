@@ -2,14 +2,13 @@
 
 **UT Austin CS388: Natural Language Processing – Final Project (Fall 2026)**  
 **Track:** Factuality and Verification  
-**Author:** Anirudh Paluri
-
+**Author:** Anirudh Paluri  
 
 ---
 
 ## Overview
 
-**Project Sentinel** investigates whether lightweight, sub-2B instruction-tuned language models can serve as reliable, low-latency **LLM-as-a-Judge** verifiers for Retrieval-Augmented Generation (RAG) faithfulness. 
+**Project Sentinel** investigates whether lightweight, sub-2B instruction-tuned language models can serve as reliable, low-latency **LLM-as-a-Judge** verifiers for Retrieval-Augmented Generation (RAG) faithfulness.
 
 Evaluating on a balanced 50/50 stratified subset of the WICE dataset ($N=50$ claims per model), we compare **Zero-Shot** vs. **Chain-of-Thought (CoT)** prompting across three sub-2B models (`Qwen2.5-0.5B-Instruct`, `Qwen2.5-1.5B-Instruct`, `Llama-3.2-1B-Instruct`) against a 4-bit quantized **7B Oracle baseline** (`Qwen2.5-7B-Instruct`).
 
@@ -43,6 +42,7 @@ Evaluating on a balanced 50/50 stratified subset of the WICE dataset ($N=50$ cla
 
 ## Repository Structure
 
+```text
 NLPFinal/
 ├── data/
 │   ├── raw/
@@ -58,18 +58,25 @@ NLPFinal/
 │   └── plot_matrices.py                     # Generates 2x4 Zero-Shot vs. CoT confusion matrix plot
 ├── confusion_matrices_comparison.png        # Paper Figure 1
 └── README.md
+```
 
-Quickstart & Reproduction
-1. Environment Setup
+---
 
-git clone [https://github.com/apaluri18/NLPFinal.git](https://github.com/apaluri18/NLPFinal.git)
+## Quickstart & Reproduction
+
+### 1. Environment Setup
+
+```bash
+git clone https://github.com/apaluri18/NLPFinal.git
 cd NLPFinal
 pip install pandas scikit-learn matplotlib seaborn tabulate
+```
 
-2. Compute Evaluation Metrics
+### 2. Compute Evaluation Metrics
+
 Run the agreement script against any of the three evaluation CSVs:
 
-
+```bash
 # Sub-2B Zero-Shot Baseline
 python src/compute_agreement.py data/ground_truth/multi_model_evaluations.csv
 
@@ -78,20 +85,20 @@ python src/compute_agreement.py data/ground_truth/multi_model_evaluations_cot.cs
 
 # 7B 4-bit Oracle Baseline
 python src/compute_agreement.py data/ground_truth/oracle_7b_cot.csv
+```
 
+### 3. Regenerate Confusion Matrices
 
-3. Regenerate Confusion Matrices
-Bash
+```bash
 python src/plot_matrices.py
-This outputs confusion_matrices_comparison.png in the repository root.
+```
 
-Methodology Notes
-Retriever: intfloat/e5-small-v2
+This outputs `confusion_matrices_comparison.png` in the repository root.
 
-Binary Label Mapping: WICE ground truth labels are mapped via exact string matching ("supported" 
-→
-→ 1 Faithful; "partially_supported" / "not_supported" 
-→
-→ 0 Unfaithful) to enforce strict citation verification and avoid substring-matching artifacts.
+---
 
-Verdict Extraction: Judge outputs are parsed using regex over the post-prompt generated text, taking the final occurrence of faithful, supported, unfaithful, or not supported.
+## Methodology Notes
+
+* **Retriever:** `intfloat/e5-small-v2`
+* **Binary Label Mapping:** WICE ground truth labels are mapped via exact string matching (`"supported"` $\rightarrow$ `1` Faithful; `"partially_supported"` / `"not_supported"` $\rightarrow$ `0` Unfaithful) to enforce strict citation verification and avoid substring-matching artifacts.
+* **Verdict Extraction:** Judge outputs are parsed using regex over the post-prompt generated text, taking the final occurrence of `faithful`, `supported`, `unfaithful`, or `not supported`.

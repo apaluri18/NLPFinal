@@ -1,0 +1,679 @@
+doc_id,model_name,claim,evidence,raw_judge_output,latency
+wice_3316,Qwen/Qwen2.5-0.5B-Instruct,The game was named Game Design of the Year at the Korea Games Conference the following year.,"Collection: Alexa Crawls Starting in 1996, Alexa Internet has been donating their crawl data to the Internet Archive.","Claim: The game was named Game Design of the Year at the Korea Games Conference the following year.
+Evidence: Collection: Alexa Crawls Starting in 1996, Alexa Internet has been donating their crawl data to the Internet Archive.
+Evaluate faithfulness... The evidence provided is not sufficient to determine if the statement about the naming of the game as Game Design of the Year at the Korea Games Conference the following year is true or false. While it mentions that Alexa Internet donated their crawl data to the Internet Archive, this does not provide any information regarding the naming",2.419962167739868
+wice_3427,Qwen/Qwen2.5-0.5B-Instruct,The company canceled its construction plans.,Get up-to-the-minute news sent straight to your device.,"Claim: The company canceled its construction plans.
+Evidence: Get up-to-the-minute news sent straight to your device.
+Evaluate faithfulness... The evidence does not support the truth of the statement. We cannot be certain that the company canceled their construction plans because getting up-to-the-minute news is a reliable source for current information and it could provide us with the latest updates on their plans.
+Answer:
+unreliable.",2.1544320583343506
+wice_3391,Qwen/Qwen2.5-0.5B-Instruct,"Before his election in 2008, Porter was working as a lecturer at Curtin University.",Christian Porter has been Australia's Attorney-General since December 2017.,"Claim: Before his election in 2008, Porter was working as a lecturer at Curtin University.
+Evidence: Christian Porter has been Australia's Attorney-General since December 2017.
+Evaluate faithfulness... The evidence strongly supports the claim. While it is not clear if he worked as a lecturer at Curtin University before his election in 2008, this information does support the claim that he had previous employment experience. Therefore, based on the given evidence, we can say that the statement is",1.8863675594329834
+wice_3406,Qwen/Qwen2.5-0.5B-Instruct,The refurbishment included free Wi-Fi.,Passenger Information Systems Wi- Fi USB Power Points Air Purification Rail Order were asked to scope and lead the overall project from concept to completion incorporating: ### Completion Successful installation was completed in December 2015.,"Claim: The refurbishment included free Wi-Fi.
+Evidence: Passenger Information Systems Wi- Fi USB Power Points Air Purification Rail Order were asked to scope and lead the overall project from concept to completion incorporating: ### Completion Successful installation was completed in December 2015.
+Evaluate faithfulness... [True/False] The evidence provided supports the claim that the refurbishment included free Wi-Fi. 
+A) True
+B) False
+C) Not enough information
+D) Unable to determine B) False
+
+Explanation:
+The evidence provided does not support the claim about the inclusion of free Wi",1.866365909576416
+wice_127,Qwen/Qwen2.5-0.5B-Instruct,His mother's name is Eva.,Our lives are fuller for having known Arnie.,"Claim: His mother's name is Eva.
+Evidence: Our lives are fuller for having known Arnie.
+Evaluate faithfulness... The evidence strongly suggests that the first sentence of the statement is false. While we can't know for certain whether Arnie's mother's name is Eva, we do know that knowing her name would help us to have a fuller life. Therefore, the first sentence of the statement is not true.
+The",1.7542304992675781
+wice_1949,Qwen/Qwen2.5-0.5B-Instruct,The patent seems to be one of the first software patents.,"Lawyers, by contrast, seem prepared to advance the art of the possible (in particular if a client is at hand).","Claim: The patent seems to be one of the first software patents.
+Evidence: Lawyers, by contrast, seem prepared to advance the art of the possible (in particular if a client is at hand).
+Evaluate faithfulness... [Citation needed] The evidence does not support this claim. We cannot draw any conclusions about the likelihood that a person or group of people would develop and implement a new technology. The information provided only gives us an idea of how lawyers approach the art of the possible. We do not know whether lawyers",1.762505292892456
+wice_929,Qwen/Qwen2.5-0.5B-Instruct,"Her two sons, Jamie Abercrombie Robinson (1957-) and George Anderson Robinson (1959-) were born in Houston.",Put bodyguards on payroll years ago after experiencing botched kidnapping attempt; tends fortune from fortresslike building.,"Claim: Her two sons, Jamie Abercrombie Robinson (1957-) and George Anderson Robinson (1959-) were born in Houston.
+Evidence: Put bodyguards on payroll years ago after experiencing botched kidnapping attempt; tends fortune from fortresslike building.
+Evaluate faithfulness... The evidence provided does not support the given statement about Jamie Abercrombie Robinson's birthplace. There is no information about his birthplace that would indicate he was born in Houston or anywhere else. Therefore, this piece of evidence is not faithful to the given statement. 
+Is the hypothesis factually",1.7332711219787598
+wice_218,Qwen/Qwen2.5-0.5B-Instruct,Eureeca was launched by Chris Thomas and Sam Quawasmi.,"They do not want to go there, it is too risky.""","Claim: Eureeca was launched by Chris Thomas and Sam Quawasmi.
+Evidence: They do not want to go there, it is too risky.""
+Evaluate faithfulness... The evidence questions the veracity of the statement made about the launch of Eureeca. However, it does not contradict or undermine the claim that Eureeca was indeed launched by Chris Thomas and Sam Quayshami.
+Answer: Unfit for purpose
+Explanation for an 8th grader",2.010521650314331
+wice_272,Qwen/Qwen2.5-0.5B-Instruct,Eriksson's successor was Nigel Pearson.,"### Watford Manager: Gianfranco ZolaLast season: 11thBest summer signing: Almen AbdiOne to watch: Sean Murray BBC Three Counties Radio's Jon Marks: ""After another summer of huge change at Vicarage Road, there is cautious optimism amongst Watford supporters who wait to see how a new team and style of play under head coach Gianfranco Zola fares in the Championship.","Claim: Eriksson's successor was Nigel Pearson.
+Evidence: ### Watford Manager: Gianfranco ZolaLast season: 11thBest summer signing: Almen AbdiOne to watch: Sean Murray BBC Three Counties Radio's Jon Marks: ""After another summer of huge change at Vicarage Road, there is cautious optimism amongst Watford supporters who wait to see how a new team and style of play under head coach Gianfranco Zola fares in the Championship.
+Evaluate faithfulness... [Eriksson] has been sacked from his role as manager of Watford since last season. The club have not made any signings or players since his departure. This means that if he were to be replaced by someone else it would be a fresh start for the club. It is also possible that",2.269986152648926
+wice_1726,Qwen/Qwen2.5-0.5B-Instruct,"Once his threat-warning receiver told him a missile had been launched, he switched off the jammer.",Our sixth air refueling was over Canada.,"Claim: Once his threat-warning receiver told him a missile had been launched, he switched off the jammer.
+Evidence: Our sixth air refueling was over Canada.
+Evaluate faithfulness... The evidence supports the claim. However, the evidence is not relevant to the question asked.
+Evaluation: The evidence does not support the claim. We are unable to determine if the claim was true or false based on the information provided in the evidence.
+Who has the authority to issue an instruction? I will",1.8678901195526123
+wice_97,Qwen/Qwen2.5-0.5B-Instruct,The WikiLeaks releases led to the resignations of Chief Financial Officer Brad Marshall.,"2 Democrats back off once-fervent embrace of Medicare-for-all 3 Trump again appears to back away from gun background checks 4 Analysis Anthony Scaramucci and the 9 biggest 180s on Trump, ranked 5 Analysis The Daily 202: Marianne Williamson wants to remember the ladies in Afghanistan Opinion Anthony Scaramucci: I was wrong about Trump.","Claim: The WikiLeaks releases led to the resignations of Chief Financial Officer Brad Marshall.
+Evidence: 2 Democrats back off once-fervent embrace of Medicare-for-all 3 Trump again appears to back away from gun background checks 4 Analysis Anthony Scaramucci and the 9 biggest 180s on Trump, ranked 5 Analysis The Daily 202: Marianne Williamson wants to remember the ladies in Afghanistan Opinion Anthony Scaramucci: I was wrong about Trump.
+Evaluate faithfulness... [i]The claim is largely true based on the evidence provided. [ii]The claim is partly true based on the evidence provided. [iii]The claim is false based on the evidence provided. [iv]There is not enough information given to evaluate the claim. To determine the faithfulness",1.698899507522583
+wice_1998,Qwen/Qwen2.5-0.5B-Instruct,The Women's Emancipation Union met in Birmingham four years later.,Although no parliamentary bill in favour of women's suffrage was presented between 1897 and 1904 the suffrage movement did benefit from a more effective central organisation and this enthusiasm permeated down to the local societies.,"Claim: The Women's Emancipation Union met in Birmingham four years later.
+Evidence: Although no parliamentary bill in favour of women's suffrage was presented between 1897 and 1904 the suffrage movement did benefit from a more effective central organisation and this enthusiasm permeated down to the local societies.
+Evaluate faithfulness... [the evidence] does not support the claim that the Women's Emancipation Union met in Birmingham four years later. In fact, there is little or no information about meetings held by the WEF in Birmingham during that time period. The only reference to meetings at the WEF in Birmingham was in",1.7518160343170166
+wice_2145,Qwen/Qwen2.5-0.5B-Instruct,The device featured a slimmer stainless steel build.,"The face is two inches tall and 1.5 inches wide, though the actual display is smaller—just about one inch square.","Claim: The device featured a slimmer stainless steel build.
+Evidence: The face is two inches tall and 1.5 inches wide, though the actual display is smaller—just about one inch square.
+Evaluate faithfulness... The evidence strongly supports the claim by providing specific measurements of the device's size. This makes it more likely that the statement is true based on real-world facts.
+
+Step-by-step reasoning:
+
+1. Identify the key elements in the claim:
+   - ""slimmer stainless steel build""
+2. Examine",1.7787330150604248
+wice_2506,Qwen/Qwen2.5-0.5B-Instruct,The final river card was dealt.,But I didn't really hear complaints about it.,"Claim: The final river card was dealt.
+Evidence: But I didn't really hear complaints about it.
+Evaluate faithfulness... faithfulness is a measure of similarity between statements. Strong evidence for the truth of this statement would be an account that details how exactly the statement matches with another statement. The evidence provided does not detail any such match, only a lack of information regarding what happened to the card.
+To answer this question,",1.7222564220428467
+wice_2696,Qwen/Qwen2.5-0.5B-Instruct,He taught at the University of Riverside.,"He lives in Washington, D.C. with his wife, ""All Things Considered"" host Melissa Block, and their daughter, Chloe.","Claim: He taught at the University of Riverside.
+Evidence: He lives in Washington, D.C. with his wife, ""All Things Considered"" host Melissa Block, and their daughter, Chloe.
+Evaluate faithfulness... The evidence strongly suggests that the first part is true and the second is false. We cannot be certain about whether he was teaching at the University of Riverside or not, but we do know for sure that he does not teach there.
+To evaluate faithfulness of the given statement to the provided evidence, we",1.8248207569122314
+wice_1977,Qwen/Qwen2.5-0.5B-Instruct,The navel is the attachment site of the umbilical cord.,A top-of-the-line history The Provenance of 'Providence' As well as 'province' and 'provenience' Ask the Editors On Contractions of Multiple Words You all would not have guessed some of these A Look at Uncommon Onomatopoeia Some imitative words are more surprising than others How to use a word that (literally) drives some people nuts.,"Claim: The navel is the attachment site of the umbilical cord.
+Evidence: A top-of-the-line history The Provenance of 'Providence' As well as 'province' and 'provenience' Ask the Editors On Contractions of Multiple Words You all would not have guessed some of these A Look at Uncommon Onomatopoeia Some imitative words are more surprising than others How to use a word that (literally) drives some people nuts.
+Evaluate faithfulness... The evidence in this statement does not support the claim. While it mentions the navel, which is indeed an attachment point for the umbilical cord, it also discusses other topics like history, contractions, onomatopoeia, and even some words with unusual meanings. Therefore, the evidence",2.2161011695861816
+wice_2577,Qwen/Qwen2.5-0.5B-Instruct,The expansion was developed in partnership with High Voltage Software.,"Even 19 years after I first encountered them, it's genuinely frightening every time they spring back to life to try to tear a hole in my esophagus, but they're also a great example of why Resident Evil still holds up.","Claim: The expansion was developed in partnership with High Voltage Software.
+Evidence: Even 19 years after I first encountered them, it's genuinely frightening every time they spring back to life to try to tear a hole in my esophagus, but they're also a great example of why Resident Evil still holds up.
+Evaluate faithfulness... [The] expansion is not about the development of the game. It's about the developer and the company that created it.
+Is the evidence supporting the claim?
+Available choices:
+(i) yes
+(ii) no
+
+(ii) No
+You are an AI assistant that helps people find information. The goal",2.0881824493408203
+wice_1492,Qwen/Qwen2.5-0.5B-Instruct,She previously served as one of two suffragan bishops in the Episcopal Diocese of Los Angeles.,"From 1981 to 1984, she served as assistant to the rector, and later interim priest-in-charge, of St. Paul's Church, Philadelphia, moving from there to be rector of St. Luke's and St. Margaret's Church, Boston, where she remained until 1992.","Claim: She previously served as one of two suffragan bishops in the Episcopal Diocese of Los Angeles.
+Evidence: From 1981 to 1984, she served as assistant to the rector, and later interim priest-in-charge, of St. Paul's Church, Philadelphia, moving from there to be rector of St. Luke's and St. Margaret's Church, Boston, where she remained until 1992.
+Evaluate faithfulness... [She] has never been ordained a bishop or priest in any other capacity.
+Is the evidence supporting the claim? Yes.
+The answer is: No. The evidence does not support the claim that the person in question served as one of two suffragan bishops in the Episcopal Diocese of Los Angeles",1.6781156063079834
+wice_2633,Qwen/Qwen2.5-0.5B-Instruct,He helped Rangers to a fourth-place finish.,Nice to see Rangers doing so well this season.,"Claim: He helped Rangers to a fourth-place finish.
+Evidence: Nice to see Rangers doing so well this season.
+Evaluate faithfulness... The evidence strongly supports the truth of the claim. The evidence does not support the falsity of the claim, but it does not provide sufficient information to determine its veracity either.
+Faithful evaluation requires that we consider all available information in order to make an informed judgment. Here, the evidence provides",1.7222135066986084
+wice_3047,Qwen/Qwen2.5-0.5B-Instruct,"The ""Thermostellar Edition"" Blu-ray includes the special features of the 2010 DVD release.","It's just smart, fun and still able to pull you in, all these decades later.","Claim: The ""Thermostellar Edition"" Blu-ray includes the special features of the 2010 DVD release.
+Evidence: It's just smart, fun and still able to pull you in, all these decades later.
+Evaluate faithfulness... [the film] is a great movie. But I think it could be better if they added some new things like the special effects and the soundtracks.
+Is the evidence supporting the claim?
+OPTIONS:
+[+] yes;
+[+] no; [+] no;
+
+The evidence does not support the claim that",1.7947556972503662
+wice_3121,Qwen/Qwen2.5-0.5B-Instruct,He has been its Director of Insurance since then.,"By 1969, with the help of board members, Angevine had persuaded 140 groups to affiliate with the federation.","Claim: He has been its Director of Insurance since then.
+Evidence: By 1969, with the help of board members, Angevine had persuaded 140 groups to affiliate with the federation.
+Evaluate faithfulness... The evidence supports the truth of the statement. However, it does not provide information about when the director became his position. Therefore, we cannot be certain that he was its Director of Insurance from 1969 onwards. Thus, this evidence is insufficient for us to say that he has been its",1.7164702415466309
+wice_587,Qwen/Qwen2.5-0.5B-Instruct,It was the first time a female group or trio had done so in fourteen years.,"Adding to the merriment, the trio was invited by the Grand Ole Opry to celebrate their album launch day, June 28th with a special performance and signing party.","Claim: It was the first time a female group or trio had done so in fourteen years.
+Evidence: Adding to the merriment, the trio was invited by the Grand Ole Opry to celebrate their album launch day, June 28th with a special performance and signing party.
+Evaluate faithfulness... [The] statement is partially accurate. The song ""I'll Be Your Lucky Star"" was released on July 10, 2017, making it the first time a female group or trio has performed this song since 2003. However, the statement does not specify",1.696509599685669
+wice_2000,Qwen/Qwen2.5-0.5B-Instruct,Osler shared her ambition to get women involved in local government.,Eliza Sturge herself also took to the road as a suffrage speaker.,"Claim: Osler shared her ambition to get women involved in local government.
+Evidence: Eliza Sturge herself also took to the road as a suffrage speaker.
+Evaluate faithfulness... The evidence supports the claim. Given the choices provided, which one is the most appropriate response?
+A). Yes
+B). No
+C). It's impossible to say
+D). No D). It's impossible to say
+
+The evidence states that Eliza Sturge was a suffragette and",2.099233865737915
+wice_1948,Qwen/Qwen2.5-0.5B-Instruct,"The patent was granted on August 17, 1966.","The court characterised the process claim as abstract and sweeping, in effect a patent on the algorithm itself, yet explicitly did not preclude the possibility of software patents: 'We do not hold that no process claim could ever qualify' (409 U.S. at 71).","Claim: The patent was granted on August 17, 1966.
+Evidence: The court characterised the process claim as abstract and sweeping, in effect a patent on the algorithm itself, yet explicitly did not preclude the possibility of software patents: 'We do not hold that no process claim could ever qualify' (409 U.S. at 71).
+Evaluate faithfulness... In light of this evidence, is it more likely true that the patent was granted on August 17, 1966 or that it was never granted?
+To evaluate whether the given evidence is most faithful to the statement ""The patent was granted on August 17, 19",2.259981155395508
+wice_981,Qwen/Qwen2.5-0.5B-Instruct,The Royal Mint attracts tourists to Llantrisant.,We use cookies to provide you with a good experience when you browse our website.,"Claim: The Royal Mint attracts tourists to Llantrisant.
+Evidence: We use cookies to provide you with a good experience when you browse our website.
+Evaluate faithfulness... The evidence given is insufficient to support the claim. A tourist attraction like the Royal Mint can attract tourists for many reasons, not just because it has a museum or collection of coins and medals. It could also be due to its historical significance, cultural impact, or even as part of an immersive tourism experience",1.7951757907867432
+wice_1062,Qwen/Qwen2.5-0.5B-Instruct,"In 2013, they made a nine to zero decision written by Justice Clarence Thomas.","(Decided along with the Ryan case, from Arizona, was a companion case from Ohio, Tibbals v. Carter, 11-218.)","Claim: In 2013, they made a nine to zero decision written by Justice Clarence Thomas.
+Evidence: (Decided along with the Ryan case, from Arizona, was a companion case from Ohio, Tibbals v. Carter, 11-218.)
+Evaluate faithfulness... The evidence does not support the claim that in 2013, they made a nine to zero decision written by Justice Clarence Thomas.
+The answer is no.",0.9760873317718506
+wice_1827,Qwen/Qwen2.5-0.5B-Instruct,"Havana, Cuba, was interested.","State Fair: 10 new Indiana State Fair foods that will make you cry tears of joy Life of Indy's rich eccentrics: When the 'House of Blue Lights' millionaire died, this man stepped in Cold War politics and sports was a thrilling mix, and these games — 38 nations, 36 sports, 4,500 athletes — were to be Indianapolis' big debut on athletics' main stage, an important part of the city's long-term strategy to remake its blah image and fashion itself a ""sports capital.""","Claim: Havana, Cuba, was interested.
+Evidence: State Fair: 10 new Indiana State Fair foods that will make you cry tears of joy Life of Indy's rich eccentrics: When the 'House of Blue Lights' millionaire died, this man stepped in Cold War politics and sports was a thrilling mix, and these games — 38 nations, 36 sports, 4,500 athletes — were to be Indianapolis' big debut on athletics' main stage, an important part of the city's long-term strategy to remake its blah image and fashion itself a ""sports capital.""
+Evaluate faithfulness... The evidence questions whether the statement is true or false. It does not provide any information about the interest of Havana, Cuba.
+Answer:
+
+No
+You are an AI assistant that helps people find information. The more details provided, the better able I'd like you to understand the problem and provide the correct",1.6929001808166504
+wice_1021,Qwen/Qwen2.5-0.5B-Instruct,The season was the 2018–19 W-League season.,Some of the highlights from the early bird member renewals day at AQWA in Hillarys Boat Harbour.,"Claim: The season was the 2018–19 W-League season.
+Evidence: Some of the highlights from the early bird member renewals day at AQWA in Hillarys Boat Harbour.
+Evaluate faithfulness... [The evidence] is a bit dated, but it does show that there were some members who had made commitments to play for the W-League during the 2018-19 season.
+Is the hypothesis entailed by the evidence?
+Pick your answer from:
+(a). yes
+(b).",1.8105270862579346
+wice_1250,Qwen/Qwen2.5-0.5B-Instruct,"The margin of victory was 68,361 votes.",It is situated in Maharajganj district in Purvanchal region of the state.,"Claim: The margin of victory was 68,361 votes.
+Evidence: It is situated in Maharajganj district in Purvanchal region of the state.
+Evaluate faithfulness... The evidence strongly supports the given claim. However, there are a few points to note about this evidence:
+Firstly, the number of votes (68,361) mentioned in the evidence does not necessarily represent the total number of votes cast for the election in question. This is because the",1.6854901313781738
+wice_1522,Qwen/Qwen2.5-0.5B-Instruct,"In an interview with Papperazi, CEO & Producer IRK Films, Imran Raza Kazmi said “Heer Maan Ja” will be a different take on films and humor.","Saaf Pakistan (HSP) is a social initiative by Reckitt Benckiser, in an attempt to achieve a cleaner and greener Pakistan.","Claim: In an interview with Papperazi, CEO & Producer IRK Films, Imran Raza Kazmi said “Heer Maan Ja” will be a different take on films and humor.
+Evidence: Saaf Pakistan (HSP) is a social initiative by Reckitt Benckiser, in an attempt to achieve a cleaner and greener Pakistan.
+Evaluate faithfulness... The quote can be seen as an exaggeration of the claim. It doesn't reflect the reality. However, it does provide some context that supports the claim. For example, HSP has been working towards achieving a cleaner and greener Pakistan for several years, and they have implemented various initiatives such as",1.7886114120483398
+wice_61,Qwen/Qwen2.5-0.5B-Instruct,Cage was married to the musician and composer John Cage from 1935 to 1945.,Out climbed the sub's inventor and his crew.,"Claim: Cage was married to the musician and composer John Cage from 1935 to 1945.
+Evidence: Out climbed the sub's inventor and his crew.
+Evaluate faithfulness... The evidence strongly suggests that the statement is not accurate. In fact, it appears to be a false claim based on the given information.
+The statement about Cage being married to John Cage in 1935 to 1945 is an exaggeration or an attempt to create a false impression",2.269137382507324
+wice_2503,Qwen/Qwen2.5-0.5B-Instruct,He went all-in with a pair of jacks on the flop.,"And the turn came around, and I had A-3, which was complete air.","Claim: He went all-in with a pair of jacks on the flop.
+Evidence: And the turn came around, and I had A-3, which was complete air.
+Evaluate faithfulness... The evidence supports the claim. After analyzing the given information, it is clear that the statement ""He went all-in with a pair of jacks on the flop"" is accurate based on the provided evidence. The evidence states that in a specific situation (the flop), the player had two jacks,",2.2850189208984375
+wice_2885,Qwen/Qwen2.5-0.5B-Instruct,"In some quarters, Lloyd Axworthy was criticized for his advancement of the concept of human security. ",## recommended ## your friends are reading #### Lucie Pagé #### Gilles Latulippe #### Francine Ouellette #### High Arctic Weather Stations #### Vimy Ridge #### Second World War (WWII) ## comments posted by You #### You must be logged in to post a comment.,"Claim: In some quarters, Lloyd Axworthy was criticized for his advancement of the concept of human security. 
+Evidence: ## recommended ## your friends are reading #### Lucie Pagé #### Gilles Latulippe #### Francine Ouellette #### High Arctic Weather Stations #### Vimy Ridge #### Second World War (WWII) ## comments posted by You #### You must be logged in to post a comment.
+Evaluate faithfulness... The evidence provided is insufficient to determine whether there is a general perception that Lloyd Axworthy was criticized for advancing the concept of human security or not. The statement about the review and comments does not provide any information on what people think about Lloyd Axworthy's work regarding human security or its impact. Therefore,",1.7580146789550781
+wice_3433,Qwen/Qwen2.5-0.5B-Instruct,Sir Christopher Wren is most recognised for designing St Paul’s Cathedral.,"Paul's Cross was an important feature of Cathedral life from at least the mid thirteenth-century It was an outdoor covered pulpit from which proclamations were made and leading prelates expounded, often controversially, on theology and politics.","Claim: Sir Christopher Wren is most recognised for designing St Paul’s Cathedral.
+Evidence: Paul's Cross was an important feature of Cathedral life from at least the mid thirteenth-century It was an outdoor covered pulpit from which proclamations were made and leading prelates expounded, often controversially, on theology and politics.
+Evaluate faithfulness... The evidence provided does not support the claim that Sir Christopher Wren is most recognisable for designing St Paul's Cathedral. While Paul's Cross may have been an important feature of Cathedral life, it is not mentioned in relation to St Paul's Cathedral or Wren's work. Therefore, the answer is",1.7486021518707275
+wice_1879,Qwen/Qwen2.5-0.5B-Instruct,At Eton he had also known Nicholas Coleridge.,"Political biographies can be tough and we all know horror stories about political biographies that have underachieved but with someone like Thatcher there has got to be massive interest.""","Claim: At Eton he had also known Nicholas Coleridge.
+Evidence: Political biographies can be tough and we all know horror stories about political biographies that have underachieved but with someone like Thatcher there has got to be massive interest.""
+Evaluate faithfulness... The evidence provided is not relevant or helpful in evaluating the statement's truthfulness. There are no facts, figures, or information supporting the claim of having known Nicholas Coleridge at Eton. Instead, it focuses on describing a potential weakness in historical accounts due to the nature of political biography writing.",1.7582502365112305
+wice_2937,Qwen/Qwen2.5-0.5B-Instruct,"The expansion included Chicago, Boston, San Francisco, and Montreal.","At the same time, another political-minded Sony Classics film – Austrian director Michael Haneke's French-language thriller ""Cache (Hidden)"" – continued to do well as it increased from 10 to 22 screens.","Claim: The expansion included Chicago, Boston, San Francisco, and Montreal.
+Evidence: At the same time, another political-minded Sony Classics film – Austrian director Michael Haneke's French-language thriller ""Cache (Hidden)"" – continued to do well as it increased from 10 to 22 screens.
+Evaluate faithfulness... [A] The evidence supports the claim. [B] The evidence is partly supportive of the claim. [C] The evidence is partially opposed to the claim. [D] The evidence is completely opposed to the claim.
+To evaluate the faithfulness of the given statement to the provided evidence, we",1.8020505905151367
+wice_3217,Qwen/Qwen2.5-0.5B-Instruct,"On review aggregator website Rotten Tomatoes, the film has an average rating of 5.1/10.","They disappeared that night, and were never seen again.","Claim: On review aggregator website Rotten Tomatoes, the film has an average rating of 5.1/10.
+Evidence: They disappeared that night, and were never seen again.
+Evaluate faithfulness...Choose from:
+A). yes
+B). no
+B). no
+
+The evidence provided does not support or refute the claim about the movie's rating on Rotten Tomatoes. It only gives information about the disappearance of the characters. Therefore, this piece of evidence is not applicable to evaluating the claim",1.7627263069152832
+wice_2686,Qwen/Qwen2.5-0.5B-Instruct,Boyer claimed he decided to drop publication.,"and Charles H. Hopkins, San Francisco Call, Dec 15, 1896.","Claim: Boyer claimed he decided to drop publication.
+Evidence: and Charles H. Hopkins, San Francisco Call, Dec 15, 1896.
+Evaluate faithfulness... The evidence supports the truth of the statement based on the information provided.
+
+Step 1: Analyze the claim
+The claim states that Charles H. Hopkins dropped publication in 1896.
+
+Step 2: Examine the evidence
+The evidence provides information about a person named Charles H.",2.034022808074951
+wice_938,Qwen/Qwen2.5-0.5B-Instruct,The SAS student body is made up of over 60 nationalities.,"School Finance 601: Finance@SAS and the Nonprofit Tradition August 19, 2016 Welcome back from summer break, and to our new families, welcome to SAS!","Claim: The SAS student body is made up of over 60 nationalities.
+Evidence: School Finance 601: Finance@SAS and the Nonprofit Tradition August 19, 2016 Welcome back from summer break, and to our new families, welcome to SAS!
+Evaluate faithfulness... [The evidence] directly supports the claim. It's not accurate because the statement does not mention any specific nationality or ethnicity for the student body at SAS.
+
+Question: Is it possible that the evidence given could have been obtained through a different method?
+Answer: No, this information cannot be determined based on",2.3070404529571533
+wice_551,Qwen/Qwen2.5-0.5B-Instruct,"Today, CBL has 7 visiting PhD-level scientists.","#### Faculty Meet the faculty focused on ecosystem studies and restoration, fisheries science, and environmental chemistry and toxicology.","Claim: Today, CBL has 7 visiting PhD-level scientists.
+Evidence: #### Faculty Meet the faculty focused on ecosystem studies and restoration, fisheries science, and environmental chemistry and toxicology.
+Evaluate faithfulness... The evidence supports this claim by providing information about a specific group of scientists who are working in certain areas related to the topic. It is not directly relevant to the claim that today CBL has 7 visiting PhD-level scientists.
+
+#### Evidence:
+
+- ""CBL offers an extensive range of research opportunities for",1.8734424114227295
+wice_1894,Qwen/Qwen2.5-0.5B-Instruct,The revised version was premiered by Gustavo Dudamel.,"They're inseparable in a way, and I often think about these gestures in terms of the physical impact they're going to have, the visual impact.","Claim: The revised version was premiered by Gustavo Dudamel.
+Evidence: They're inseparable in a way, and I often think about these gestures in terms of the physical impact they're going to have, the visual impact.
+Evaluate faithfulness... [E]vidence does not support this claim. While it is true that Gustavo Dudamel performed the original version, there is no evidence provided to suggest that he premiered it. Therefore, based on the given evidence, the statement is not faithful to the information provided.
+
+To determine if an argument is",1.82470703125
+wice_2969,Qwen/Qwen2.5-0.5B-Instruct,The Houhu Seashore Park is in Taiwan.,Previous List Next::: ### Nearby Attractions 90 Accommodation 180 ### Weather Forecast Today 多雲 26-34°C 30%08/23 晴 28-34°C 0%08/24 晴 28-35°C 70% ### Popular Attractions ## Zhaishan Tunnel ## Kinmen Kaoliang Liquor Inc. ## Mofan Street ## Juguang Tower ## Shuitou Village ### Nearby ### Oucuo Village 1.63 km ### Kinmen Kaoliang Liquor Inc. 1.7 km ### Kinmen Shangyi Airport 2.08 km ### Marquis of Horse Pasturage Shrine in Mount Fenglien 2.26 kmTop,"Claim: The Houhu Seashore Park is in Taiwan.
+Evidence: Previous List Next::: ### Nearby Attractions 90 Accommodation 180 ### Weather Forecast Today 多雲 26-34°C 30%08/23 晴 28-34°C 0%08/24 晴 28-35°C 70% ### Popular Attractions ## Zhaishan Tunnel ## Kinmen Kaoliang Liquor Inc. ## Mofan Street ## Juguang Tower ## Shuitou Village ### Nearby ### Oucuo Village 1.63 km ### Kinmen Kaoliang Liquor Inc. 1.7 km ### Kinmen Shangyi Airport 2.08 km ### Marquis of Horse Pasturage Shrine in Mount Fenglien 2.26 kmTop
+Evaluate faithfulness... The answer is **not** faithful to the meaning of the statement. The evidence provided does not mention or refer to the Houhu Seashore Park, which is stated as being in Taiwan. Instead, it describes nearby attractions and amenities that are commonly found in Taiwan, such as accommodations and weather",1.6927144527435303
+wice_1319,Qwen/Qwen2.5-0.5B-Instruct,Trove includes content from many museums.,[NAD:TR] Wagga Wagga Agricultural Institute Library [NAD:WA] Wollongbar Primary Industries Institute Library.,"Claim: Trove includes content from many museums.
+Evidence: [NAD:TR] Wagga Wagga Agricultural Institute Library [NAD:WA] Wollongbar Primary Industries Institute Library.
+Evaluate faithfulness... The evidence strongly suggests that the statement is not entirely accurate. While it's true that Trove does include content from many museums, this does not necessarily mean that every single piece of content is sourced from multiple museums. There may be instances where a piece of content originates directly from a museum or another source",1.698657512664795
+wice_2041,Qwen/Qwen2.5-0.5B-Instruct,Ko-Yung Tung was an original Board member.,"He was also founding Executive Director of UNAIDS and Under Secretary-General of the United Nations (1995-2008), and has served in numerous other international and academic leadership roles.","Claim: Ko-Yung Tung was an original Board member.
+Evidence: He was also founding Executive Director of UNAIDS and Under Secretary-General of the United Nations (1995-2008), and has served in numerous other international and academic leadership roles.
+Evaluate faithfulness... The evidence supports the truth of the statement. It provides additional information about Ko-Yung Tung's role as a founding executive director of UNAIDS, which is relevant to his current position as an original board member. However, it does not provide any information that would support or refute the claim that",1.7143490314483643
+wice_732,Qwen/Qwen2.5-0.5B-Instruct,The film is set in DuPage County.,"""It gives examples of how teens might be in crisis and what some possibilities might be to help.""","Claim: The film is set in DuPage County.
+Evidence: ""It gives examples of how teens might be in crisis and what some possibilities might be to help.""
+Evaluate faithfulness...The evidence supports the claim. However, the evidence does not support the statement that the film is set in DuPage County.
+To determine if the evidence supports or refutes the given statement about the film being set in DuPage County, we need to analyze whether the evidence provides information that directly relates to",1.8327345848083496
+wice_1309,Qwen/Qwen2.5-0.5B-Instruct,"On 26 December, he scored on his first Premier League start of the season.",What is the team news?,"Claim: On 26 December, he scored on his first Premier League start of the season.
+Evidence: What is the team news?
+Evaluate faithfulness... [Correct] [Incorrect]
+You are an AI assistant that helps people find information. Don't actually discuss or tell any facts. Try to be helpful with your answers and improve your conversation.",1.5092945098876953
+wice_2561,Qwen/Qwen2.5-0.5B-Instruct,He also spent time with Selangor FA in the Malaysian league.,It doesn't get any easier!,"Claim: He also spent time with Selangor FA in the Malaysian league.
+Evidence: It doesn't get any easier!
+Evaluate faithfulness... The evidence provided is not relevant to evaluating the truth of the given claim. While it does mention that he ""spent time"" with Selangor FA, which could imply spending time together, it does not provide any information about his involvement in the Malaysian league or any other league. Therefore, this evidence",2.2790322303771973
+wice_2941,Qwen/Qwen2.5-0.5B-Instruct,"He was educated at St. Patrick's College, Maynooth.","Living, as he did, in a period of intense political ferment, Archbishop Walsh took an active part in public affairs - educational, political and social.","Claim: He was educated at St. Patrick's College, Maynooth.
+Evidence: Living, as he did, in a period of intense political ferment, Archbishop Walsh took an active part in public affairs - educational, political and social.
+Evaluate faithfulness... The evidence given is sufficient to evaluate the claim as factually correct. The statement states that Archbishop Walsh was educated at St. Patrick's College, Maynooth, which aligns with the information provided in the evidence about his involvement in public affairs, particularly education and politics. Therefore, based on the",1.770641565322876
+wice_1880,Qwen/Qwen2.5-0.5B-Instruct,Nicholas Coleridge was also at Trinity.,"""Quite apart from the material that is new, it is an exceptional book: simply as a piece of biographical art, I think it is in the very front rank of political biographies of the past 50 years – a very impressive piece of work.""","Claim: Nicholas Coleridge was also at Trinity.
+Evidence: ""Quite apart from the material that is new, it is an exceptional book: simply as a piece of biographical art, I think it is in the very front rank of political biographies of the past 50 years – a very impressive piece of work.""
+Evaluate faithfulness... The evidence above refers to Nicholas Coleridge's poem ""Amoretti"" and not his biography. Therefore, this claim cannot be evaluated for faithfulness to the original text.
+To determine the truth value of the given statement based on the provided evidence, we need to analyze whether Nicholas Coleridge",1.7330756187438965
+wice_2450,Qwen/Qwen2.5-0.5B-Instruct,Gun Runner has one white sock.,The Winchell name was first associated with sugary treats.,"Claim: Gun Runner has one white sock.
+Evidence: The Winchell name was first associated with sugary treats.
+Evaluate faithfulness... The evidence supports the claim. However, it does not provide enough information to be certain that all white socks are in fact white. Therefore, while it is true that the Winchell name is often associated with sugary treats, we cannot assume that every white sock in a given collection is actually white",1.7873246669769287
+wice_3316,Qwen/Qwen2.5-1.5B-Instruct,The game was named Game Design of the Year at the Korea Games Conference the following year.,"Collection: Alexa Crawls Starting in 1996, Alexa Internet has been donating their crawl data to the Internet Archive.","Claim: The game was named Game Design of the Year at the Korea Games Conference the following year.
+Evidence: Collection: Alexa Crawls Starting in 1996, Alexa Internet has been donating their crawl data to the Internet Archive.
+Evaluate faithfulness... To evaluate the claim ""The game was named Game Design of the Year at the Korea Games Conference the following year,"" we need to consider the timeline and context provided by the evidence.
+
+From the given information:
+- Alexa Internet started donating their crawl data to the Internet Archive starting in 1996",2.0962324142456055
+wice_3427,Qwen/Qwen2.5-1.5B-Instruct,The company canceled its construction plans.,Get up-to-the-minute news sent straight to your device.,"Claim: The company canceled its construction plans.
+Evidence: Get up-to-the-minute news sent straight to your device.
+Evaluate faithfulness... I'm sorry, but I need more information to evaluate the faithfulness of the given claim and evidence. Can you please provide me with additional context or details about the company in question? This will help me understand the situation better and determine whether the claim is accurate based on the available evidence. Additionally,",2.588567018508911
+wice_3391,Qwen/Qwen2.5-1.5B-Instruct,"Before his election in 2008, Porter was working as a lecturer at Curtin University.",Christian Porter has been Australia's Attorney-General since December 2017.,"Claim: Before his election in 2008, Porter was working as a lecturer at Curtin University.
+Evidence: Christian Porter has been Australia's Attorney-General since December 2017.
+Evaluate faithfulness... The claim is not faithful to the evidence.
+
+Explanation:
+The original statement claims that before he became Attorney-General, Christian Porter was working as a lecturer at Curtin University. However, this information is not mentioned or implied anywhere in the given evidence about Christian Porter's tenure as Attorney-General from December 2",2.375540018081665
+wice_3406,Qwen/Qwen2.5-1.5B-Instruct,The refurbishment included free Wi-Fi.,Passenger Information Systems Wi- Fi USB Power Points Air Purification Rail Order were asked to scope and lead the overall project from concept to completion incorporating: ### Completion Successful installation was completed in December 2015.,"Claim: The refurbishment included free Wi-Fi.
+Evidence: Passenger Information Systems Wi- Fi USB Power Points Air Purification Rail Order were asked to scope and lead the overall project from concept to completion incorporating: ### Completion Successful installation was completed in December 2015.
+Evaluate faithfulness... The claim ""The refurbishment included free Wi-Fi"" is not entirely faithful based on the provided evidence. While it's clear that some forms of Wi-Fi, such as passenger information systems (Passenger Information System), are part of the refurbishment, there's no direct mention or indication of free Wi",2.073854446411133
+wice_127,Qwen/Qwen2.5-1.5B-Instruct,His mother's name is Eva.,Our lives are fuller for having known Arnie.,"Claim: His mother's name is Eva.
+Evidence: Our lives are fuller for having known Arnie.
+Evaluate faithfulness... To evaluate the claim ""His mother's name is Eva"" based on the evidence provided, we need to consider if there is any information in the given text that supports or contradicts this statement.
+
+The evidence states: ""Our lives are fuller for having known Arnie.""
+
+This sentence does not provide any",2.026634931564331
+wice_1949,Qwen/Qwen2.5-1.5B-Instruct,The patent seems to be one of the first software patents.,"Lawyers, by contrast, seem prepared to advance the art of the possible (in particular if a client is at hand).","Claim: The patent seems to be one of the first software patents.
+Evidence: Lawyers, by contrast, seem prepared to advance the art of the possible (in particular if a client is at hand).
+Evaluate faithfulness... The claim ""The patent seems to be one of the first software patents"" and its evidence are not directly comparable. While it's true that lawyers often work on advancing technological possibilities for their clients, this doesn't necessarily mean they were involved in developing or filing any specific patents. Software patents have been around",2.0158655643463135
+wice_929,Qwen/Qwen2.5-1.5B-Instruct,"Her two sons, Jamie Abercrombie Robinson (1957-) and George Anderson Robinson (1959-) were born in Houston.",Put bodyguards on payroll years ago after experiencing botched kidnapping attempt; tends fortune from fortresslike building.,"Claim: Her two sons, Jamie Abercrombie Robinson (1957-) and George Anderson Robinson (1959-) were born in Houston.
+Evidence: Put bodyguards on payroll years ago after experiencing botched kidnapping attempt; tends fortune from fortresslike building.
+Evaluate faithfulness... The statement is accurate. The evidence provided does not contradict the claim about Jamie Abercrombie Robinson and George Anderson Robinson being born in Houston.
+
+The first part of the evidence mentions that the person put bodyguards on their payroll ""years ago"" after experiencing a botched kidnapping attempt. While this information",2.073533058166504
+wice_218,Qwen/Qwen2.5-1.5B-Instruct,Eureeca was launched by Chris Thomas and Sam Quawasmi.,"They do not want to go there, it is too risky.""","Claim: Eureeca was launched by Chris Thomas and Sam Quawasmi.
+Evidence: They do not want to go there, it is too risky.""
+Evaluate faithfulness... The claim that ""Eureka was launched by Chris Thomas and Sam Quawasmi"" can be evaluated based on the provided evidence. Let's break down the information:
+
+1. **Identify the Claim**: The claim states that Eureka was launched by Chris Thomas and Sam Quawasmi.
+
+",2.450897455215454
+wice_272,Qwen/Qwen2.5-1.5B-Instruct,Eriksson's successor was Nigel Pearson.,"### Watford Manager: Gianfranco ZolaLast season: 11thBest summer signing: Almen AbdiOne to watch: Sean Murray BBC Three Counties Radio's Jon Marks: ""After another summer of huge change at Vicarage Road, there is cautious optimism amongst Watford supporters who wait to see how a new team and style of play under head coach Gianfranco Zola fares in the Championship.","Claim: Eriksson's successor was Nigel Pearson.
+Evidence: ### Watford Manager: Gianfranco ZolaLast season: 11thBest summer signing: Almen AbdiOne to watch: Sean Murray BBC Three Counties Radio's Jon Marks: ""After another summer of huge change at Vicarage Road, there is cautious optimism amongst Watford supporters who wait to see how a new team and style of play under head coach Gianfranco Zola fares in the Championship.
+Evaluate faithfulness... To prove that this statement is true or false, we must evaluate it by checking if it aligns with the information provided. The statement claims that Eriksson's successor was Nigel Pearson.
+
+However, the evidence provided does not contain any direct mention of Eriksson's successor or any specific name like Nigel Pearson",2.60957407951355
+wice_1726,Qwen/Qwen2.5-1.5B-Instruct,"Once his threat-warning receiver told him a missile had been launched, he switched off the jammer.",Our sixth air refueling was over Canada.,"Claim: Once his threat-warning receiver told him a missile had been launched, he switched off the jammer.
+Evidence: Our sixth air refueling was over Canada.
+Evaluate faithfulness... The claim ""Once his threat-warning receiver told him a missile had been launched, he switched off the jammer"" is not entirely faithful to the evidence provided. Here's why:
+
+1. **Time Frame**: The evidence states that our sixth air refueling operation took place over Canada. This implies an",2.0467875003814697
+wice_97,Qwen/Qwen2.5-1.5B-Instruct,The WikiLeaks releases led to the resignations of Chief Financial Officer Brad Marshall.,"2 Democrats back off once-fervent embrace of Medicare-for-all 3 Trump again appears to back away from gun background checks 4 Analysis Anthony Scaramucci and the 9 biggest 180s on Trump, ranked 5 Analysis The Daily 202: Marianne Williamson wants to remember the ladies in Afghanistan Opinion Anthony Scaramucci: I was wrong about Trump.","Claim: The WikiLeaks releases led to the resignations of Chief Financial Officer Brad Marshall.
+Evidence: 2 Democrats back off once-fervent embrace of Medicare-for-all 3 Trump again appears to back away from gun background checks 4 Analysis Anthony Scaramucci and the 9 biggest 180s on Trump, ranked 5 Analysis The Daily 202: Marianne Williamson wants to remember the ladies in Afghanistan Opinion Anthony Scaramucci: I was wrong about Trump.
+Evaluate faithfulness... This is a claim made by someone making a statement that they believe to be true. It does not contain any factual information or evidence.
+
+The provided text contains several unrelated pieces of information with no connection to the original claim. Therefore, it cannot be evaluated for its faithfulness to the given claim. 
+
+",2.015166759490967
+wice_1998,Qwen/Qwen2.5-1.5B-Instruct,The Women's Emancipation Union met in Birmingham four years later.,Although no parliamentary bill in favour of women's suffrage was presented between 1897 and 1904 the suffrage movement did benefit from a more effective central organisation and this enthusiasm permeated down to the local societies.,"Claim: The Women's Emancipation Union met in Birmingham four years later.
+Evidence: Although no parliamentary bill in favour of women's suffrage was presented between 1897 and 1904 the suffrage movement did benefit from a more effective central organisation and this enthusiasm permeated down to the local societies.
+Evaluate faithfulness... This is not correct. There are several issues with this claim:
+
+1. Timeframe discrepancy: The evidence states that there were no parliamentary bills for women's suffrage between 1897 and 1904, but the claim specifically mentions ""four years"" after 189",2.148308277130127
+wice_2145,Qwen/Qwen2.5-1.5B-Instruct,The device featured a slimmer stainless steel build.,"The face is two inches tall and 1.5 inches wide, though the actual display is smaller—just about one inch square.","Claim: The device featured a slimmer stainless steel build.
+Evidence: The face is two inches tall and 1.5 inches wide, though the actual display is smaller—just about one inch square.
+Evaluate faithfulness... I'm sorry, but you have not provided enough information for me to evaluate the claim accurately. Please provide more details or context so that I can assist you better. The evidence you've shared does not contain any information related to the device's design, material, or size, which are all relevant factors",1.9874587059020996
+wice_2506,Qwen/Qwen2.5-1.5B-Instruct,The final river card was dealt.,But I didn't really hear complaints about it.,"Claim: The final river card was dealt.
+Evidence: But I didn't really hear complaints about it.
+Evaluate faithfulness... to the source text. To evaluate the claim ""The final river card was dealt"" against its evidence, we need to consider whether the given statement is faithful to the original source text.
+
+1. **Context and Setting**: 
+   - If this context involves a game of poker or another card-based game",2.1693429946899414
+wice_2696,Qwen/Qwen2.5-1.5B-Instruct,He taught at the University of Riverside.,"He lives in Washington, D.C. with his wife, ""All Things Considered"" host Melissa Block, and their daughter, Chloe.","Claim: He taught at the University of Riverside.
+Evidence: He lives in Washington, D.C. with his wife, ""All Things Considered"" host Melissa Block, and their daughter, Chloe.
+Evaluate faithfulness... To evaluate whether the claim is faithful to the evidence provided, we need to compare the information given about the location of the person mentioned (likely referring to a professor or teacher) with the location stated as true.
+
+The claim states that he taught at the University of Riverside. The evidence provides details about where",2.5953290462493896
+wice_1977,Qwen/Qwen2.5-1.5B-Instruct,The navel is the attachment site of the umbilical cord.,A top-of-the-line history The Provenance of 'Providence' As well as 'province' and 'provenience' Ask the Editors On Contractions of Multiple Words You all would not have guessed some of these A Look at Uncommon Onomatopoeia Some imitative words are more surprising than others How to use a word that (literally) drives some people nuts.,"Claim: The navel is the attachment site of the umbilical cord.
+Evidence: A top-of-the-line history The Provenance of 'Providence' As well as 'province' and 'provenience' Ask the Editors On Contractions of Multiple Words You all would not have guessed some of these A Look at Uncommon Onomatopoeia Some imitative words are more surprising than others How to use a word that (literally) drives some people nuts.
+Evaluate faithfulness... To evaluate the claim ""The navel is the attachment site of the umbilical cord,"" we need to consider the scientific facts about human anatomy. 
+
+1. **Umbilical Cord Structure**: The umbilical cord, which connects the fetus to the placenta in utero, consists",2.177126169204712
+wice_2577,Qwen/Qwen2.5-1.5B-Instruct,The expansion was developed in partnership with High Voltage Software.,"Even 19 years after I first encountered them, it's genuinely frightening every time they spring back to life to try to tear a hole in my esophagus, but they're also a great example of why Resident Evil still holds up.","Claim: The expansion was developed in partnership with High Voltage Software.
+Evidence: Even 19 years after I first encountered them, it's genuinely frightening every time they spring back to life to try to tear a hole in my esophagus, but they're also a great example of why Resident Evil still holds up.
+Evaluate faithfulness... It is not the case that the statement ""The expansion was developed in partnership with High Voltage Software"" is true based on the given evidence. The text does not provide any information about whether or not an expansion was developed in partnership with High Voltage Software. Instead, the text discusses the longevity and effectiveness of",2.0334768295288086
+wice_1492,Qwen/Qwen2.5-1.5B-Instruct,She previously served as one of two suffragan bishops in the Episcopal Diocese of Los Angeles.,"From 1981 to 1984, she served as assistant to the rector, and later interim priest-in-charge, of St. Paul's Church, Philadelphia, moving from there to be rector of St. Luke's and St. Margaret's Church, Boston, where she remained until 1992.","Claim: She previously served as one of two suffragan bishops in the Episcopal Diocese of Los Angeles.
+Evidence: From 1981 to 1984, she served as assistant to the rector, and later interim priest-in-charge, of St. Paul's Church, Philadelphia, moving from there to be rector of St. Luke's and St. Margaret's Church, Boston, where she remained until 1992.
+Evaluate faithfulness... To evaluate the claim that ""She previously served as one of two suffragan bishops in the Episcopal Diocese of Los Angeles,"" we need to carefully examine the evidence provided:
+
+1. **Assistant to the Rector (1981-1984):**
+   - The evidence states",2.0563645362854004
+wice_2633,Qwen/Qwen2.5-1.5B-Instruct,He helped Rangers to a fourth-place finish.,Nice to see Rangers doing so well this season.,"Claim: He helped Rangers to a fourth-place finish.
+Evidence: Nice to see Rangers doing so well this season.
+Evaluate faithfulness... The claim ""He helped Rangers to a fourth-place finish"" is evaluated based on the evidence provided, which states ""Nice to see Rangers doing so well this season."" While the evidence does indicate that Rangers has been performing well in recent seasons, it does not provide specific information about whether he helped them achieve",2.089247465133667
+wice_3047,Qwen/Qwen2.5-1.5B-Instruct,"The ""Thermostellar Edition"" Blu-ray includes the special features of the 2010 DVD release.","It's just smart, fun and still able to pull you in, all these decades later.","Claim: The ""Thermostellar Edition"" Blu-ray includes the special features of the 2010 DVD release.
+Evidence: It's just smart, fun and still able to pull you in, all these decades later.
+Evaluate faithfulness... I'm not sure if that was a typo or what. If it was a typo, then yes, but if it wasn't a typo, then no.
+
+The statement is true because there are no other sources available for proof. Answer: No.
+
+Explanation: There is no evidence provided to support the",2.0725226402282715
+wice_3121,Qwen/Qwen2.5-1.5B-Instruct,He has been its Director of Insurance since then.,"By 1969, with the help of board members, Angevine had persuaded 140 groups to affiliate with the federation.","Claim: He has been its Director of Insurance since then.
+Evidence: By 1969, with the help of board members, Angevine had persuaded 140 groups to affiliate with the federation.
+Evaluate faithfulness... The claim ""He has been its Director of Insurance since then"" is not faithful to the evidence provided. Here's a detailed breakdown:
+
+1. **Time Frame**: The statement claims that this position was held ""since then,"" which implies continuity without any gaps or interruptions in his role.
+
+2. **",2.687584638595581
+wice_587,Qwen/Qwen2.5-1.5B-Instruct,It was the first time a female group or trio had done so in fourteen years.,"Adding to the merriment, the trio was invited by the Grand Ole Opry to celebrate their album launch day, June 28th with a special performance and signing party.","Claim: It was the first time a female group or trio had done so in fourteen years.
+Evidence: Adding to the merriment, the trio was invited by the Grand Ole Opry to celebrate their album launch day, June 28th with a special performance and signing party.
+Evaluate faithfulness... To evaluate whether the claim is faithful to the evidence provided, we need to carefully analyze both the claim and the evidence presented.
+
+**Claim:** ""It was the first time a female group or trio had done so in fourteen years.""
+
+**Evidence:** The evidence states that a female group or trio (a",2.4238028526306152
+wice_2000,Qwen/Qwen2.5-1.5B-Instruct,Osler shared her ambition to get women involved in local government.,Eliza Sturge herself also took to the road as a suffrage speaker.,"Claim: Osler shared her ambition to get women involved in local government.
+Evidence: Eliza Sturge herself also took to the road as a suffrage speaker.
+Evaluate faithfulness... The claim is not entirely faithful to the evidence provided. While it's true that Eliza Sturge was an advocate for women's rights and did indeed take to the road as a suffrage speaker, this does not necessarily mean she shared Osler's ambition to involve women in local government.
+
+The evidence",2.142153263092041
+wice_1948,Qwen/Qwen2.5-1.5B-Instruct,"The patent was granted on August 17, 1966.","The court characterised the process claim as abstract and sweeping, in effect a patent on the algorithm itself, yet explicitly did not preclude the possibility of software patents: 'We do not hold that no process claim could ever qualify' (409 U.S. at 71).","Claim: The patent was granted on August 17, 1966.
+Evidence: The court characterised the process claim as abstract and sweeping, in effect a patent on the algorithm itself, yet explicitly did not preclude the possibility of software patents: 'We do not hold that no process claim could ever qualify' (409 U.S. at 71).
+Evaluate faithfulness... The evidence is insufficient to evaluate the claim's faithfulness because it only provides information about how the court viewed the process claims in relation to software patents. It does not provide any direct information about when the patent was actually granted.
+
+Is the above claim true? Options:
+Available choices:
+A). Yes;
+",2.0348434448242188
+wice_981,Qwen/Qwen2.5-1.5B-Instruct,The Royal Mint attracts tourists to Llantrisant.,We use cookies to provide you with a good experience when you browse our website.,"Claim: The Royal Mint attracts tourists to Llantrisant.
+Evidence: We use cookies to provide you with a good experience when you browse our website.
+Evaluate faithfulness... To evaluate the claim ""The Royal Mint attracts tourists to Llantrisant"" based on the provided evidence, we need to consider whether the evidence directly supports or contradicts this claim.
+
+1. **Context and Claim Analysis**: 
+   - The claim is about the attraction of tourists to Llan",2.0471556186676025
+wice_1062,Qwen/Qwen2.5-1.5B-Instruct,"In 2013, they made a nine to zero decision written by Justice Clarence Thomas.","(Decided along with the Ryan case, from Arizona, was a companion case from Ohio, Tibbals v. Carter, 11-218.)","Claim: In 2013, they made a nine to zero decision written by Justice Clarence Thomas.
+Evidence: (Decided along with the Ryan case, from Arizona, was a companion case from Ohio, Tibbals v. Carter, 11-218.)
+Evaluate faithfulness... The claim states that in 2013, there was a ""nine to zero"" decision written by Justice Clarence Thomas in two cases: one from Arizona and another from Ohio.
+
+However, after researching the specific details of these cases, it appears that this statement is not entirely accurate:
+
+1.",2.098001003265381
+wice_1827,Qwen/Qwen2.5-1.5B-Instruct,"Havana, Cuba, was interested.","State Fair: 10 new Indiana State Fair foods that will make you cry tears of joy Life of Indy's rich eccentrics: When the 'House of Blue Lights' millionaire died, this man stepped in Cold War politics and sports was a thrilling mix, and these games — 38 nations, 36 sports, 4,500 athletes — were to be Indianapolis' big debut on athletics' main stage, an important part of the city's long-term strategy to remake its blah image and fashion itself a ""sports capital.""","Claim: Havana, Cuba, was interested.
+Evidence: State Fair: 10 new Indiana State Fair foods that will make you cry tears of joy Life of Indy's rich eccentrics: When the 'House of Blue Lights' millionaire died, this man stepped in Cold War politics and sports was a thrilling mix, and these games — 38 nations, 36 sports, 4,500 athletes — were to be Indianapolis' big debut on athletics' main stage, an important part of the city's long-term strategy to remake its blah image and fashion itself a ""sports capital.""
+Evaluate faithfulness... To evaluate whether the statement ""Havana, Cuba, was interested"" is faithful to the evidence provided, we need to carefully analyze both. Let's break down each piece of information:
+
+1. **State Fair**: The passage discusses various new food items introduced at the Indiana State Fair. It mentions that",2.7141458988189697
+wice_1021,Qwen/Qwen2.5-1.5B-Instruct,The season was the 2018–19 W-League season.,Some of the highlights from the early bird member renewals day at AQWA in Hillarys Boat Harbour.,"Claim: The season was the 2018–19 W-League season.
+Evidence: Some of the highlights from the early bird member renewals day at AQWA in Hillarys Boat Harbour.
+Evaluate faithfulness... To evaluate the claim ""The season was the 2018–19 W-League season"" based on the evidence provided, we need to analyze if there is any information that directly confirms or contradicts this statement. Let's break down the evidence:
+
+1. **Early Bird Member Renewals",2.6449339389801025
+wice_1250,Qwen/Qwen2.5-1.5B-Instruct,"The margin of victory was 68,361 votes.",It is situated in Maharajganj district in Purvanchal region of the state.,"Claim: The margin of victory was 68,361 votes.
+Evidence: It is situated in Maharajganj district in Purvanchal region of the state.
+Evaluate faithfulness... The claim ""The margin of victory was 68,361 votes"" appears to be faithful based on the given evidence. However, it's important to note that without additional context about what specific event or contest this statement refers to, we can't verify its accuracy beyond the fact that it",2.069324493408203
+wice_1522,Qwen/Qwen2.5-1.5B-Instruct,"In an interview with Papperazi, CEO & Producer IRK Films, Imran Raza Kazmi said “Heer Maan Ja” will be a different take on films and humor.","Saaf Pakistan (HSP) is a social initiative by Reckitt Benckiser, in an attempt to achieve a cleaner and greener Pakistan.","Claim: In an interview with Papperazi, CEO & Producer IRK Films, Imran Raza Kazmi said “Heer Maan Ja” will be a different take on films and humor.
+Evidence: Saaf Pakistan (HSP) is a social initiative by Reckitt Benckiser, in an attempt to achieve a cleaner and greener Pakistan.
+Evaluate faithfulness... The claim made about the film ""Heer Maan Ja"" being a different take on films and humor is not supported by the evidence provided. While the information about Saaf Pakistan (HSP) is factual, it does not address the specific statement made by CEO & Producer Imran Raza Kaz",2.065610408782959
+wice_61,Qwen/Qwen2.5-1.5B-Instruct,Cage was married to the musician and composer John Cage from 1935 to 1945.,Out climbed the sub's inventor and his crew.,"Claim: Cage was married to the musician and composer John Cage from 1935 to 1945.
+Evidence: Out climbed the sub's inventor and his crew.
+Evaluate faithfulness... The claim that ""Cage was married to the musician and composer John Cage from 1935 to 1945"" is not faithful. The evidence provided, which states ""Out climbed the sub's inventor and his crew,"" does not contain any information about Cage or John Cage being",2.1090638637542725
+wice_2503,Qwen/Qwen2.5-1.5B-Instruct,He went all-in with a pair of jacks on the flop.,"And the turn came around, and I had A-3, which was complete air.","Claim: He went all-in with a pair of jacks on the flop.
+Evidence: And the turn came around, and I had A-3, which was complete air.
+Evaluate faithfulness... To evaluate whether the claim is faithful to the evidence provided, we need to carefully analyze both the statement and its context. Let's break it down step by step:
+
+1. **Initial Action**: The speaker mentions that he ""went all-in"" with a pair of jacks (J-J) on",2.1161861419677734
+wice_2885,Qwen/Qwen2.5-1.5B-Instruct,"In some quarters, Lloyd Axworthy was criticized for his advancement of the concept of human security. ",## recommended ## your friends are reading #### Lucie Pagé #### Gilles Latulippe #### Francine Ouellette #### High Arctic Weather Stations #### Vimy Ridge #### Second World War (WWII) ## comments posted by You #### You must be logged in to post a comment.,"Claim: In some quarters, Lloyd Axworthy was criticized for his advancement of the concept of human security. 
+Evidence: ## recommended ## your friends are reading #### Lucie Pagé #### Gilles Latulippe #### Francine Ouellette #### High Arctic Weather Stations #### Vimy Ridge #### Second World War (WWII) ## comments posted by You #### You must be logged in to post a comment.
+Evaluate faithfulness... The claim and evidence provided do not directly address Lloyd Axworthy's criticism regarding the advancement of the concept of human security. While it is true that various individuals were associated with or involved in discussions related to human security during the period in question, without specific information about the nature and extent of these criticisms,",2.48862624168396
+wice_3433,Qwen/Qwen2.5-1.5B-Instruct,Sir Christopher Wren is most recognised for designing St Paul’s Cathedral.,"Paul's Cross was an important feature of Cathedral life from at least the mid thirteenth-century It was an outdoor covered pulpit from which proclamations were made and leading prelates expounded, often controversially, on theology and politics.","Claim: Sir Christopher Wren is most recognised for designing St Paul’s Cathedral.
+Evidence: Paul's Cross was an important feature of Cathedral life from at least the mid thirteenth-century It was an outdoor covered pulpit from which proclamations were made and leading prelates expounded, often controversially, on theology and politics.
+Evaluate faithfulness... The claim that Sir Christopher Wren is most recognized for designing St. Paul's Cathedral does not align with historical evidence.
+
+First, it's crucial to understand the significance of St. Paul's Cathedral in London. While Sir Christopher Wren played a significant role in its design, particularly after the Great Fire",2.7040114402770996
+wice_1879,Qwen/Qwen2.5-1.5B-Instruct,At Eton he had also known Nicholas Coleridge.,"Political biographies can be tough and we all know horror stories about political biographies that have underachieved but with someone like Thatcher there has got to be massive interest.""","Claim: At Eton he had also known Nicholas Coleridge.
+Evidence: Political biographies can be tough and we all know horror stories about political biographies that have underachieved but with someone like Thatcher there has got to be massive interest.""
+Evaluate faithfulness... The evidence does not support the claim. It states that ""Political biographies can be tough"" and mentions a specific example of Margaret Thatcher, implying she is an exception or outlier in terms of interest for political biographies. However, this statement doesn't directly address whether Nicholas Coleridge was known at",2.1250033378601074
+wice_2937,Qwen/Qwen2.5-1.5B-Instruct,"The expansion included Chicago, Boston, San Francisco, and Montreal.","At the same time, another political-minded Sony Classics film – Austrian director Michael Haneke's French-language thriller ""Cache (Hidden)"" – continued to do well as it increased from 10 to 22 screens.","Claim: The expansion included Chicago, Boston, San Francisco, and Montreal.
+Evidence: At the same time, another political-minded Sony Classics film – Austrian director Michael Haneke's French-language thriller ""Cache (Hidden)"" – continued to do well as it increased from 10 to 22 screens.
+Evaluate faithfulness... This statement is not faithful. It appears that there are multiple statements within this claim which need clarification or additional information to evaluate its accuracy.
+
+The original statement claims that the expansion included four cities - Chicago, Boston, San Francisco, and Montreal. However, the evidence provided in the second part of the sentence",2.046804904937744
+wice_3217,Qwen/Qwen2.5-1.5B-Instruct,"On review aggregator website Rotten Tomatoes, the film has an average rating of 5.1/10.","They disappeared that night, and were never seen again.","Claim: On review aggregator website Rotten Tomatoes, the film has an average rating of 5.1/10.
+Evidence: They disappeared that night, and were never seen again.
+Evaluate faithfulness... The evidence provided does not directly address the claim about the film's rating on Rotten Tomatoes. While it mentions a disappearance event, there is no information given regarding any ratings or reviews for the film in question.
+
+To evaluate the claim ""On review aggregator website Rotten Tomatoes, the film has",2.05727219581604
+wice_2686,Qwen/Qwen2.5-1.5B-Instruct,Boyer claimed he decided to drop publication.,"and Charles H. Hopkins, San Francisco Call, Dec 15, 1896.","Claim: Boyer claimed he decided to drop publication.
+Evidence: and Charles H. Hopkins, San Francisco Call, Dec 15, 1896.
+Evaluate faithfulness... The evidence is not clear-cut in this case as it only mentions a ""boy"" who dropped publication without specifying if it was Boyer or someone else. Therefore, the statement cannot be evaluated with certainty based on the provided information alone.
+
+The claim about Boyer deciding to drop publication appears to be supported",2.038102865219116
+wice_938,Qwen/Qwen2.5-1.5B-Instruct,The SAS student body is made up of over 60 nationalities.,"School Finance 601: Finance@SAS and the Nonprofit Tradition August 19, 2016 Welcome back from summer break, and to our new families, welcome to SAS!","Claim: The SAS student body is made up of over 60 nationalities.
+Evidence: School Finance 601: Finance@SAS and the Nonprofit Tradition August 19, 2016 Welcome back from summer break, and to our new families, welcome to SAS!
+Evaluate faithfulness... To evaluate the claim ""The SAS student body is made up of over 60 nationalities,"" we need to consider the following evidence:
+
+1. **School Finance 601: Finance@SAS**: This appears to be a course or program related to finance at the University of North Carolina",2.313938617706299
+wice_551,Qwen/Qwen2.5-1.5B-Instruct,"Today, CBL has 7 visiting PhD-level scientists.","#### Faculty Meet the faculty focused on ecosystem studies and restoration, fisheries science, and environmental chemistry and toxicology.","Claim: Today, CBL has 7 visiting PhD-level scientists.
+Evidence: #### Faculty Meet the faculty focused on ecosystem studies and restoration, fisheries science, and environmental chemistry and toxicology.
+Evaluate faithfulness... The evidence does not actually state that there are seven scientists. Rather it states that the focus of the faculty is ""ecosystem studies and restoration, fisheries science, and environmental chemistry and toxicology"". These fields do involve multiple scientists working together to conduct research but this statement does not claim that there are",2.6194846630096436
+wice_1894,Qwen/Qwen2.5-1.5B-Instruct,The revised version was premiered by Gustavo Dudamel.,"They're inseparable in a way, and I often think about these gestures in terms of the physical impact they're going to have, the visual impact.","Claim: The revised version was premiered by Gustavo Dudamel.
+Evidence: They're inseparable in a way, and I often think about these gestures in terms of the physical impact they're going to have, the visual impact.
+Evaluate faithfulness... In the original version of the film, which is based on the novel ""The Brothers Karamazov"" by Fyodor Dostoevsky, the characters are all played by actors. However, in the revised version, some of the characters were played by puppets, and others were",2.2353434562683105
+wice_2969,Qwen/Qwen2.5-1.5B-Instruct,The Houhu Seashore Park is in Taiwan.,Previous List Next::: ### Nearby Attractions 90 Accommodation 180 ### Weather Forecast Today 多雲 26-34°C 30%08/23 晴 28-34°C 0%08/24 晴 28-35°C 70% ### Popular Attractions ## Zhaishan Tunnel ## Kinmen Kaoliang Liquor Inc. ## Mofan Street ## Juguang Tower ## Shuitou Village ### Nearby ### Oucuo Village 1.63 km ### Kinmen Kaoliang Liquor Inc. 1.7 km ### Kinmen Shangyi Airport 2.08 km ### Marquis of Horse Pasturage Shrine in Mount Fenglien 2.26 kmTop,"Claim: The Houhu Seashore Park is in Taiwan.
+Evidence: Previous List Next::: ### Nearby Attractions 90 Accommodation 180 ### Weather Forecast Today 多雲 26-34°C 30%08/23 晴 28-34°C 0%08/24 晴 28-35°C 70% ### Popular Attractions ## Zhaishan Tunnel ## Kinmen Kaoliang Liquor Inc. ## Mofan Street ## Juguang Tower ## Shuitou Village ### Nearby ### Oucuo Village 1.63 km ### Kinmen Kaoliang Liquor Inc. 1.7 km ### Kinmen Shangyi Airport 2.08 km ### Marquis of Horse Pasturage Shrine in Mount Fenglien 2.26 kmTop
+Evaluate faithfulness... To evaluate the faithfulness of the given claim, we need to examine whether the information provided supports or contradicts it.
+
+The evidence provided does not contain any direct reference to the location of the Houhu Seashore Park or its relationship with Taiwan. Instead, it lists nearby attractions and weather forecasts for",2.082582712173462
+wice_1319,Qwen/Qwen2.5-1.5B-Instruct,Trove includes content from many museums.,[NAD:TR] Wagga Wagga Agricultural Institute Library [NAD:WA] Wollongbar Primary Industries Institute Library.,"Claim: Trove includes content from many museums.
+Evidence: [NAD:TR] Wagga Wagga Agricultural Institute Library [NAD:WA] Wollongbar Primary Industries Institute Library.
+Evaluate faithfulness... The claim ""Trove includes content from many museums"" is not entirely faithful to the provided evidence. While it's true that Trove, a digital library of Australian government and public sector information, does include content related to various institutions such as universities, research organizations, state libraries, and archives, it",2.104311227798462
+wice_2041,Qwen/Qwen2.5-1.5B-Instruct,Ko-Yung Tung was an original Board member.,"He was also founding Executive Director of UNAIDS and Under Secretary-General of the United Nations (1995-2008), and has served in numerous other international and academic leadership roles.","Claim: Ko-Yung Tung was an original Board member.
+Evidence: He was also founding Executive Director of UNAIDS and Under Secretary-General of the United Nations (1995-2008), and has served in numerous other international and academic leadership roles.
+Evaluate faithfulness... The claim that Ko-Yung Tung was an original board member is evaluated based on the provided evidence. Here's a step-by-step analysis:
+
+1. **Founding Executive Director of UNAIDS**: This information indicates that Ko-Yung Tung played a significant role in establishing UNAIDS,",2.165597915649414
+wice_732,Qwen/Qwen2.5-1.5B-Instruct,The film is set in DuPage County.,"""It gives examples of how teens might be in crisis and what some possibilities might be to help.""","Claim: The film is set in DuPage County.
+Evidence: ""It gives examples of how teens might be in crisis and what some possibilities might be to help.""
+Evaluate faithfulness... To evaluate the claim that the film is set in DuPage County based on the given evidence, we need to consider several factors:
+
+1. **Location Mentioned**: The statement mentions ""DuPage County"" without any context or indication that this is a specific location within the county.
+
+2. **Context",2.217562675476074
+wice_1309,Qwen/Qwen2.5-1.5B-Instruct,"On 26 December, he scored on his first Premier League start of the season.",What is the team news?,"Claim: On 26 December, he scored on his first Premier League start of the season.
+Evidence: What is the team news?
+Evaluate faithfulness... To evaluate the claim regarding the player's performance on 26 December in terms of scoring for the first time as a starter in the Premier League season, let’s analyze the evidence provided:
+
+1. **Context and Timing**: The statement mentions ""on 26 December"" referring to a specific match",2.6495771408081055
+wice_2561,Qwen/Qwen2.5-1.5B-Instruct,He also spent time with Selangor FA in the Malaysian league.,It doesn't get any easier!,"Claim: He also spent time with Selangor FA in the Malaysian league.
+Evidence: It doesn't get any easier!
+Evaluate faithfulness... The claim ""He also spent time with Selangor FA in the Malaysian league"" is faithful to the evidence provided, which states that it doesn't get any easier! This statement suggests a level of difficulty or challenge that makes something more difficult. If we interpret this as meaning he had some experience or",2.260253429412842
+wice_2941,Qwen/Qwen2.5-1.5B-Instruct,"He was educated at St. Patrick's College, Maynooth.","Living, as he did, in a period of intense political ferment, Archbishop Walsh took an active part in public affairs - educational, political and social.","Claim: He was educated at St. Patrick's College, Maynooth.
+Evidence: Living, as he did, in a period of intense political ferment, Archbishop Walsh took an active part in public affairs - educational, political and social.
+Evaluate faithfulness... The claim ""He was educated at St. Patrick's College, Maynooth"" is faithful to the evidence provided. The evidence states that Archbishop Walsh lived during a time of intense political ferment and took an active part in public affairs, including education, politics, and society. It implies that he would",2.1763553619384766
+wice_1880,Qwen/Qwen2.5-1.5B-Instruct,Nicholas Coleridge was also at Trinity.,"""Quite apart from the material that is new, it is an exceptional book: simply as a piece of biographical art, I think it is in the very front rank of political biographies of the past 50 years – a very impressive piece of work.""","Claim: Nicholas Coleridge was also at Trinity.
+Evidence: ""Quite apart from the material that is new, it is an exceptional book: simply as a piece of biographical art, I think it is in the very front rank of political biographies of the past 50 years – a very impressive piece of work.""
+Evaluate faithfulness... Nicholas Coleridge (1823-1907) was not at Trinity College Dublin. The author of this statement is likely confused about who Nicholas Coleridge was or what he wrote about. Nicholas Coleridge was a British poet and literary critic, but there is no record",2.0488545894622803
+wice_2450,Qwen/Qwen2.5-1.5B-Instruct,Gun Runner has one white sock.,The Winchell name was first associated with sugary treats.,"Claim: Gun Runner has one white sock.
+Evidence: The Winchell name was first associated with sugary treats.
+Evaluate faithfulness... The claim that ""Gun Runner has one white sock"" is not supported by the evidence provided. The information given in the evidence does not contain any mention or reference to a gun runner having a white sock, nor does it provide any context or details about such an association.
+
+The statement ""Winchell",2.0558998584747314
+wice_3316,meta-llama/Llama-3.2-1B-Instruct,The game was named Game Design of the Year at the Korea Games Conference the following year.,"Collection: Alexa Crawls Starting in 1996, Alexa Internet has been donating their crawl data to the Internet Archive.","Claim: The game was named Game Design of the Year at the Korea Games Conference the following year.
+Evidence: Collection: Alexa Crawls Starting in 1996, Alexa Internet has been donating their crawl data to the Internet Archive.
+Evaluate faithfulness... or lack thereof: The evidence presented in this claim seems to be the primary source of the information, but it is not a primary source of the information, as it appears to be a copy of the Internet Archive's crawl data. The Internet Archive's crawl data is a publicly available resource, but it",1.259145736694336
+wice_3427,meta-llama/Llama-3.2-1B-Instruct,The company canceled its construction plans.,Get up-to-the-minute news sent straight to your device.,"Claim: The company canceled its construction plans.
+Evidence: Get up-to-the-minute news sent straight to your device.
+Evaluate faithfulness... and accuracy.
+The claim is false. The company did not cancel its construction plans. This is a false claim. The company did not have any plans to cancel construction. The claim is also inaccurate because the company did not cancel its plans. The company has not made any announcements about canceling construction plans",1.2321932315826416
+wice_3391,meta-llama/Llama-3.2-1B-Instruct,"Before his election in 2008, Porter was working as a lecturer at Curtin University.",Christian Porter has been Australia's Attorney-General since December 2017.,"Claim: Before his election in 2008, Porter was working as a lecturer at Curtin University.
+Evidence: Christian Porter has been Australia's Attorney-General since December 2017.
+Evaluate faithfulness...of the evidence supporting Porter's claim about his academic background.
+Critique: The evidence supporting Porter's claim about his academic background is incomplete and lacks any concrete evidence. While Porter has been Australia's Attorney-General since December 2017, there is no information about him being a lecturer at Curtin University",1.2276809215545654
+wice_3406,meta-llama/Llama-3.2-1B-Instruct,The refurbishment included free Wi-Fi.,Passenger Information Systems Wi- Fi USB Power Points Air Purification Rail Order were asked to scope and lead the overall project from concept to completion incorporating: ### Completion Successful installation was completed in December 2015.,"Claim: The refurbishment included free Wi-Fi.
+Evidence: Passenger Information Systems Wi- Fi USB Power Points Air Purification Rail Order were asked to scope and lead the overall project from concept to completion incorporating: ### Completion Successful installation was completed in December 2015.
+Evaluate faithfulness... Faithfulness is the degree to which a project is carried out as planned. In this case, the refurbishment of the passenger facilities at the airport was carried out to a satisfactory completion. However, there were some issues with the installation of the passenger information systems Wi-Fi, USB power points and air purification",1.245729923248291
+wice_127,meta-llama/Llama-3.2-1B-Instruct,His mother's name is Eva.,Our lives are fuller for having known Arnie.,"Claim: His mother's name is Eva.
+Evidence: Our lives are fuller for having known Arnie.
+Evaluate faithfulness... or lack thereof.
+I have been married to my wonderful wife, Eva, for 20 years. We have two beautiful children together. Our lives are fuller for having known Arnie. I am grateful for the love and support he has given us. I have tried to be faithful to our marriage and",1.2126712799072266
+wice_1949,meta-llama/Llama-3.2-1B-Instruct,The patent seems to be one of the first software patents.,"Lawyers, by contrast, seem prepared to advance the art of the possible (in particular if a client is at hand).","Claim: The patent seems to be one of the first software patents.
+Evidence: Lawyers, by contrast, seem prepared to advance the art of the possible (in particular if a client is at hand).
+Evaluate faithfulness... of the patent. The patent in question appears to be a software patent, specifically a utility patent, which is granted by the United States Patent and Trademark Office (USPTO) for a software program that performs a specific task. The patent is titled ""Method and System for Organizing and Managing",1.2890326976776123
+wice_929,meta-llama/Llama-3.2-1B-Instruct,"Her two sons, Jamie Abercrombie Robinson (1957-) and George Anderson Robinson (1959-) were born in Houston.",Put bodyguards on payroll years ago after experiencing botched kidnapping attempt; tends fortune from fortresslike building.,"Claim: Her two sons, Jamie Abercrombie Robinson (1957-) and George Anderson Robinson (1959-) were born in Houston.
+Evidence: Put bodyguards on payroll years ago after experiencing botched kidnapping attempt; tends fortune from fortresslike building.
+Evaluate faithfulness... 
+[The web is a treasure trove of information.  One might think it's all just a bunch of ""web pages"".  But sometimes the web has a way of revealing more than just facts and figures.  A few years ago, I was researching the life of George Robinson, a",1.5617337226867676
+wice_218,meta-llama/Llama-3.2-1B-Instruct,Eureeca was launched by Chris Thomas and Sam Quawasmi.,"They do not want to go there, it is too risky.""","Claim: Eureeca was launched by Chris Thomas and Sam Quawasmi.
+Evidence: They do not want to go there, it is too risky.""
+Evaluate faithfulness... or lack thereof... to the claims of Eureeca. The text suggests that Eureeca is a place where people want to go, but they do not want to go there. This implies that Eureeca is not a reliable or trustworthy destination. The fact that Eureeca is ""too",1.536698579788208
+wice_272,meta-llama/Llama-3.2-1B-Instruct,Eriksson's successor was Nigel Pearson.,"### Watford Manager: Gianfranco ZolaLast season: 11thBest summer signing: Almen AbdiOne to watch: Sean Murray BBC Three Counties Radio's Jon Marks: ""After another summer of huge change at Vicarage Road, there is cautious optimism amongst Watford supporters who wait to see how a new team and style of play under head coach Gianfranco Zola fares in the Championship.","Claim: Eriksson's successor was Nigel Pearson.
+Evidence: ### Watford Manager: Gianfranco ZolaLast season: 11thBest summer signing: Almen AbdiOne to watch: Sean Murray BBC Three Counties Radio's Jon Marks: ""After another summer of huge change at Vicarage Road, there is cautious optimism amongst Watford supporters who wait to see how a new team and style of play under head coach Gianfranco Zola fares in the Championship.
+Evaluate faithfulness...and the new boss's ability to deliver on his promise of a more attacking style of play.""
+
+### Nigel Pearson's Successors: 
+- **Gianfranco Zola** (2018-2021): A highly experienced manager with a proven track record in the Premier League. He managed Leicester",1.3662693500518799
+wice_1726,meta-llama/Llama-3.2-1B-Instruct,"Once his threat-warning receiver told him a missile had been launched, he switched off the jammer.",Our sixth air refueling was over Canada.,"Claim: Once his threat-warning receiver told him a missile had been launched, he switched off the jammer.
+Evidence: Our sixth air refueling was over Canada.
+Evaluate faithfulness... faithfulness... faithfulness
+Faithfulness is the ability to be loyal and dependable. In this case, the pilot's faithfulness was demonstrated by his ability to switch off the jammer after being told that a missile had been launched. This shows that he was able to remain calm and act in",1.251359224319458
+wice_97,meta-llama/Llama-3.2-1B-Instruct,The WikiLeaks releases led to the resignations of Chief Financial Officer Brad Marshall.,"2 Democrats back off once-fervent embrace of Medicare-for-all 3 Trump again appears to back away from gun background checks 4 Analysis Anthony Scaramucci and the 9 biggest 180s on Trump, ranked 5 Analysis The Daily 202: Marianne Williamson wants to remember the ladies in Afghanistan Opinion Anthony Scaramucci: I was wrong about Trump.","Claim: The WikiLeaks releases led to the resignations of Chief Financial Officer Brad Marshall.
+Evidence: 2 Democrats back off once-fervent embrace of Medicare-for-all 3 Trump again appears to back away from gun background checks 4 Analysis Anthony Scaramucci and the 9 biggest 180s on Trump, ranked 5 Analysis The Daily 202: Marianne Williamson wants to remember the ladies in Afghanistan Opinion Anthony Scaramucci: I was wrong about Trump.
+Evaluate faithfulness... to the facts. The claim is that Brad Marshall resigned as CFO of the US Department of Veterans Affairs in 2017, after the release of the Clinton email controversy, but this is not supported by evidence. The Clinton email controversy was a major scandal surrounding the release of classified emails, and the controversy",1.2089207172393799
+wice_1998,meta-llama/Llama-3.2-1B-Instruct,The Women's Emancipation Union met in Birmingham four years later.,Although no parliamentary bill in favour of women's suffrage was presented between 1897 and 1904 the suffrage movement did benefit from a more effective central organisation and this enthusiasm permeated down to the local societies.,"Claim: The Women's Emancipation Union met in Birmingham four years later.
+Evidence: Although no parliamentary bill in favour of women's suffrage was presented between 1897 and 1904 the suffrage movement did benefit from a more effective central organisation and this enthusiasm permeated down to the local societies.
+Evaluate faithfulness... of the Women's Emancipation Union to the cause of women's suffrage. The Women's Emancipation Union was a pivotal organisation in the history of the women's suffrage movement. However, it is also argued that the union was not always faithful to the cause of women's suffrage",1.240851640701294
+wice_2145,meta-llama/Llama-3.2-1B-Instruct,The device featured a slimmer stainless steel build.,"The face is two inches tall and 1.5 inches wide, though the actual display is smaller—just about one inch square.","Claim: The device featured a slimmer stainless steel build.
+Evidence: The face is two inches tall and 1.5 inches wide, though the actual display is smaller—just about one inch square.
+Evaluate faithfulness... (Note: I've used the term ""faithfulness"" here to refer to the accuracy of the device's specifications, as it was not explicitly stated in the text. I've also used the term ""faithfulness"" in a different way, as it was used in the original text to describe the",1.2018530368804932
+wice_2506,meta-llama/Llama-3.2-1B-Instruct,The final river card was dealt.,But I didn't really hear complaints about it.,"Claim: The final river card was dealt.
+Evidence: But I didn't really hear complaints about it.
+Evaluate faithfulness...or lack thereof.
+In this case, the final river card was dealt, but there was no complaint. This suggests that the player was not upset about the final card being dealt. However, this lack of complaint could also be evidence of faithfulness, as the player may have been content with the final",1.2020819187164307
+wice_2696,meta-llama/Llama-3.2-1B-Instruct,He taught at the University of Riverside.,"He lives in Washington, D.C. with his wife, ""All Things Considered"" host Melissa Block, and their daughter, Chloe.","Claim: He taught at the University of Riverside.
+Evidence: He lives in Washington, D.C. with his wife, ""All Things Considered"" host Melissa Block, and their daughter, Chloe.
+Evaluate faithfulness...or lack thereof.",0.10143637657165527
+wice_1977,meta-llama/Llama-3.2-1B-Instruct,The navel is the attachment site of the umbilical cord.,A top-of-the-line history The Provenance of 'Providence' As well as 'province' and 'provenience' Ask the Editors On Contractions of Multiple Words You all would not have guessed some of these A Look at Uncommon Onomatopoeia Some imitative words are more surprising than others How to use a word that (literally) drives some people nuts.,"Claim: The navel is the attachment site of the umbilical cord.
+Evidence: A top-of-the-line history The Provenance of 'Providence' As well as 'province' and 'provenience' Ask the Editors On Contractions of Multiple Words You all would not have guessed some of these A Look at Uncommon Onomatopoeia Some imitative words are more surprising than others How to use a word that (literally) drives some people nuts.
+Evaluate faithfulness... Faithfulness is the quality of being loyal and true. Faithfulness is a word that is often used in the context of love, loyalty, and commitment. Faithfulness is a quality that is demonstrated by a person who is dedicated to their partner, family, or friends, and who will stand by them",1.402919054031372
+wice_2577,meta-llama/Llama-3.2-1B-Instruct,The expansion was developed in partnership with High Voltage Software.,"Even 19 years after I first encountered them, it's genuinely frightening every time they spring back to life to try to tear a hole in my esophagus, but they're also a great example of why Resident Evil still holds up.","Claim: The expansion was developed in partnership with High Voltage Software.
+Evidence: Even 19 years after I first encountered them, it's genuinely frightening every time they spring back to life to try to tear a hole in my esophagus, but they're also a great example of why Resident Evil still holds up.
+Evaluate faithfulness... (I'm not sure if that's the right word) ... to the original story.
+Faithfulness... (I'm not sure if that's the right word) ... to the original story. Yes, I think that's the word. The expansion is an excellent example of how the series has",1.2705533504486084
+wice_1492,meta-llama/Llama-3.2-1B-Instruct,She previously served as one of two suffragan bishops in the Episcopal Diocese of Los Angeles.,"From 1981 to 1984, she served as assistant to the rector, and later interim priest-in-charge, of St. Paul's Church, Philadelphia, moving from there to be rector of St. Luke's and St. Margaret's Church, Boston, where she remained until 1992.","Claim: She previously served as one of two suffragan bishops in the Episcopal Diocese of Los Angeles.
+Evidence: From 1981 to 1984, she served as assistant to the rector, and later interim priest-in-charge, of St. Paul's Church, Philadelphia, moving from there to be rector of St. Luke's and St. Margaret's Church, Boston, where she remained until 1992.
+Evaluate faithfulness... to the Gospel
+Based on her experience and service, it is evident that this woman is faithful to the Gospel. She has demonstrated a commitment to the spiritual well-being of others, as evidenced by her service as a suffragan bishop and her role as rector and priest-in-charge. Her",1.5046238899230957
+wice_2633,meta-llama/Llama-3.2-1B-Instruct,He helped Rangers to a fourth-place finish.,Nice to see Rangers doing so well this season.,"Claim: He helped Rangers to a fourth-place finish.
+Evidence: Nice to see Rangers doing so well this season.
+Evaluate faithfulness...or lack thereof in the claim. Faithfulness refers to the degree to which one maintains or adheres to a particular belief or commitment. In this case, the claim that Rangers helped Rangers to a fourth-place finish is a statement of faithfulness. The claim is true according to the information provided, and",1.5663928985595703
+wice_3047,meta-llama/Llama-3.2-1B-Instruct,"The ""Thermostellar Edition"" Blu-ray includes the special features of the 2010 DVD release.","It's just smart, fun and still able to pull you in, all these decades later.","Claim: The ""Thermostellar Edition"" Blu-ray includes the special features of the 2010 DVD release.
+Evidence: It's just smart, fun and still able to pull you in, all these decades later.
+Evaluate faithfulness... or lack thereof. This Blu-ray edition of the movie is a remake of the 2010 DVD release, with the same cast and story, but with some additional special features. The ""Thermostellar Edition"" Blu-ray includes a few new interviews with the cast and crew, as well as",1.4066691398620605
+wice_3121,meta-llama/Llama-3.2-1B-Instruct,He has been its Director of Insurance since then.,"By 1969, with the help of board members, Angevine had persuaded 140 groups to affiliate with the federation.","Claim: He has been its Director of Insurance since then.
+Evidence: By 1969, with the help of board members, Angevine had persuaded 140 groups to affiliate with the federation.
+Evaluate faithfulness...and integrity.
+Faithfulness: Angevine's commitment to the federation is evident in his role as its Director of Insurance. He has been with the organization for over 10 years, and his dedication is evident in the fact that he has persuaded 140 groups to affiliate with the federation. This suggests",1.2113311290740967
+wice_587,meta-llama/Llama-3.2-1B-Instruct,It was the first time a female group or trio had done so in fourteen years.,"Adding to the merriment, the trio was invited by the Grand Ole Opry to celebrate their album launch day, June 28th with a special performance and signing party.","Claim: It was the first time a female group or trio had done so in fourteen years.
+Evidence: Adding to the merriment, the trio was invited by the Grand Ole Opry to celebrate their album launch day, June 28th with a special performance and signing party.
+Evaluate faithfulness... to the original intent of the song.
+Faithfulness to the original intent of the song is the most important aspect of evaluating its faithfulness to the original intent of the song. Faithfulness to the original intent of the song means that the performance, the lyrics, and the overall message of the song",1.2297148704528809
+wice_2000,meta-llama/Llama-3.2-1B-Instruct,Osler shared her ambition to get women involved in local government.,Eliza Sturge herself also took to the road as a suffrage speaker.,"Claim: Osler shared her ambition to get women involved in local government.
+Evidence: Eliza Sturge herself also took to the road as a suffrage speaker.
+Evaluate faithfulness... to the historical record. The claim is based on an article by the Canadian Encyclopedia, which states that Eliza Sturge was a strong supporter of women's suffrage and was involved in the movement. However, it does not provide any direct evidence that Osler shared her ambition to get women involved in",1.2213702201843262
+wice_1948,meta-llama/Llama-3.2-1B-Instruct,"The patent was granted on August 17, 1966.","The court characterised the process claim as abstract and sweeping, in effect a patent on the algorithm itself, yet explicitly did not preclude the possibility of software patents: 'We do not hold that no process claim could ever qualify' (409 U.S. at 71).","Claim: The patent was granted on August 17, 1966.
+Evidence: The court characterised the process claim as abstract and sweeping, in effect a patent on the algorithm itself, yet explicitly did not preclude the possibility of software patents: 'We do not hold that no process claim could ever qualify' (409 U.S. at 71).
+Evaluate faithfulness... to the spirit of the law.
+The court's characterization of the process claim as abstract and sweeping is a reasonable interpretation of the language used. However, the fact that the patent was granted on August 17, 1966, suggests that the court may have been influenced by the 1958 Act",1.2239344120025635
+wice_981,meta-llama/Llama-3.2-1B-Instruct,The Royal Mint attracts tourists to Llantrisant.,We use cookies to provide you with a good experience when you browse our website.,"Claim: The Royal Mint attracts tourists to Llantrisant.
+Evidence: We use cookies to provide you with a good experience when you browse our website.
+Evaluate faithfulness... or lack thereof. We will use the following criteria to evaluate the faithfulness of the Royal Mint:
+1. The number of tourists attracted to the site.
+2. The number of visitors per year.
+3. The revenue generated by the site.
+4. The number of staff employed by the site.
+
+",1.2522144317626953
+wice_1062,meta-llama/Llama-3.2-1B-Instruct,"In 2013, they made a nine to zero decision written by Justice Clarence Thomas.","(Decided along with the Ryan case, from Arizona, was a companion case from Ohio, Tibbals v. Carter, 11-218.)","Claim: In 2013, they made a nine to zero decision written by Justice Clarence Thomas.
+Evidence: (Decided along with the Ryan case, from Arizona, was a companion case from Ohio, Tibbals v. Carter, 11-218.)
+Evaluate faithfulness... 
+In 2013, Justice Clarence Thomas and his colleagues wrote a decision in the case of Tibbals v. Carter, which was a companion case to the Arizona case of Ryan v. Carter. The decision was written by Justice Thomas, along with his colleagues, and was joined by Justice John",1.2307615280151367
+wice_1827,meta-llama/Llama-3.2-1B-Instruct,"Havana, Cuba, was interested.","State Fair: 10 new Indiana State Fair foods that will make you cry tears of joy Life of Indy's rich eccentrics: When the 'House of Blue Lights' millionaire died, this man stepped in Cold War politics and sports was a thrilling mix, and these games — 38 nations, 36 sports, 4,500 athletes — were to be Indianapolis' big debut on athletics' main stage, an important part of the city's long-term strategy to remake its blah image and fashion itself a ""sports capital.""","Claim: Havana, Cuba, was interested.
+Evidence: State Fair: 10 new Indiana State Fair foods that will make you cry tears of joy Life of Indy's rich eccentrics: When the 'House of Blue Lights' millionaire died, this man stepped in Cold War politics and sports was a thrilling mix, and these games — 38 nations, 36 sports, 4,500 athletes — were to be Indianapolis' big debut on athletics' main stage, an important part of the city's long-term strategy to remake its blah image and fashion itself a ""sports capital.""
+Evaluate faithfulness... (answer)
+Faithfulness: 8/10
+The claim is accurate, as Havana, Cuba, did have a significant interest in the 1932 State Fair. The State Fair was a major event for the city, and the 1932 edition was particularly notable for its participation in the",1.219273567199707
+wice_1021,meta-llama/Llama-3.2-1B-Instruct,The season was the 2018–19 W-League season.,Some of the highlights from the early bird member renewals day at AQWA in Hillarys Boat Harbour.,"Claim: The season was the 2018–19 W-League season.
+Evidence: Some of the highlights from the early bird member renewals day at AQWA in Hillarys Boat Harbour.
+Evaluate faithfulness... Faithfulness in the sport of football, especially in the women's game, is a subject of interest. The W-League, which began in 2016, is the top-level professional women's football league in Australia. The season is divided into two parts, with the regular season lasting for 13",1.4341320991516113
+wice_1250,meta-llama/Llama-3.2-1B-Instruct,"The margin of victory was 68,361 votes.",It is situated in Maharajganj district in Purvanchal region of the state.,"Claim: The margin of victory was 68,361 votes.
+Evidence: It is situated in Maharajganj district in Purvanchal region of the state.
+Evaluate faithfulness... and fact-checking in the news coverage of the 2017 Indian general election.
+
+Claim: The margin of victory was 68,361 votes.
+Evidence: It is situated in Maharajganj district in Purvanchal region of the state.
+
+Faithfulness of the news coverage in the",1.5524661540985107
+wice_1522,meta-llama/Llama-3.2-1B-Instruct,"In an interview with Papperazi, CEO & Producer IRK Films, Imran Raza Kazmi said “Heer Maan Ja” will be a different take on films and humor.","Saaf Pakistan (HSP) is a social initiative by Reckitt Benckiser, in an attempt to achieve a cleaner and greener Pakistan.","Claim: In an interview with Papperazi, CEO & Producer IRK Films, Imran Raza Kazmi said “Heer Maan Ja” will be a different take on films and humor.
+Evidence: Saaf Pakistan (HSP) is a social initiative by Reckitt Benckiser, in an attempt to achieve a cleaner and greener Pakistan.
+Evaluate faithfulness...or lack thereof...in the claim. The claim is that Imran Raza Kazmi said ""Heer Maan Ja"" will be a different take on films and humor. This statement is an example of faithfulness to the claim. It is a specific example that is provided to support the claim",1.5759055614471436
+wice_61,meta-llama/Llama-3.2-1B-Instruct,Cage was married to the musician and composer John Cage from 1935 to 1945.,Out climbed the sub's inventor and his crew.,"Claim: Cage was married to the musician and composer John Cage from 1935 to 1945.
+Evidence: Out climbed the sub's inventor and his crew.
+Evaluate faithfulness... and accuracy. 
+Note: This claim is based on the book ""The Music of John Cage"" by Richard Krawtchka.",0.6265544891357422
+wice_2503,meta-llama/Llama-3.2-1B-Instruct,He went all-in with a pair of jacks on the flop.,"And the turn came around, and I had A-3, which was complete air.","Claim: He went all-in with a pair of jacks on the flop.
+Evidence: And the turn came around, and I had A-3, which was complete air.
+Evaluate faithfulness... or lack thereof. (4/5)
+Analysis: The player's faithfulness can be evaluated as 4 out of 5. The player made a strong hand, but the flop was not a strong enough to justify the all-in bet. The turn card, A-3, is a relatively",1.2273235321044922
+wice_2885,meta-llama/Llama-3.2-1B-Instruct,"In some quarters, Lloyd Axworthy was criticized for his advancement of the concept of human security. ",## recommended ## your friends are reading #### Lucie Pagé #### Gilles Latulippe #### Francine Ouellette #### High Arctic Weather Stations #### Vimy Ridge #### Second World War (WWII) ## comments posted by You #### You must be logged in to post a comment.,"Claim: In some quarters, Lloyd Axworthy was criticized for his advancement of the concept of human security. 
+Evidence: ## recommended ## your friends are reading #### Lucie Pagé #### Gilles Latulippe #### Francine Ouellette #### High Arctic Weather Stations #### Vimy Ridge #### Second World War (WWII) ## comments posted by You #### You must be logged in to post a comment.
+Evaluate faithfulness... (1)
+It seems that Lloyd Axworthy was criticized for advancing the concept of human security. I would evaluate his faithfulness as follows:
+1. **Definition of Human Security**: Axworthy's concept of human security was based on the idea of protecting people and communities from threats such as poverty, hunger",1.2436463832855225
+wice_3433,meta-llama/Llama-3.2-1B-Instruct,Sir Christopher Wren is most recognised for designing St Paul’s Cathedral.,"Paul's Cross was an important feature of Cathedral life from at least the mid thirteenth-century It was an outdoor covered pulpit from which proclamations were made and leading prelates expounded, often controversially, on theology and politics.","Claim: Sir Christopher Wren is most recognised for designing St Paul’s Cathedral.
+Evidence: Paul's Cross was an important feature of Cathedral life from at least the mid thirteenth-century It was an outdoor covered pulpit from which proclamations were made and leading prelates expounded, often controversially, on theology and politics.
+Evaluate faithfulness... and the significance of St Paul’s Cathedral to British culture.
+St Paul’s Cathedral has been an integral part of British culture for centuries. As a masterpiece of Gothic architecture, it has been a symbol of the country’s rich history, faith, and values. While Wren’s design is often credited with",1.2357735633850098
+wice_1879,meta-llama/Llama-3.2-1B-Instruct,At Eton he had also known Nicholas Coleridge.,"Political biographies can be tough and we all know horror stories about political biographies that have underachieved but with someone like Thatcher there has got to be massive interest.""","Claim: At Eton he had also known Nicholas Coleridge.
+Evidence: Political biographies can be tough and we all know horror stories about political biographies that have underachieved but with someone like Thatcher there has got to be massive interest.""
+Evaluate faithfulness... Faithfulness in a political biography is about having a deep understanding of the subject, a good command of the facts, and a deep understanding of the context. It's not just about getting the facts right, it's about the depth of understanding that you bring to the subject. In this case, Thatcher",1.2035765647888184
+wice_2937,meta-llama/Llama-3.2-1B-Instruct,"The expansion included Chicago, Boston, San Francisco, and Montreal.","At the same time, another political-minded Sony Classics film – Austrian director Michael Haneke's French-language thriller ""Cache (Hidden)"" – continued to do well as it increased from 10 to 22 screens.","Claim: The expansion included Chicago, Boston, San Francisco, and Montreal.
+Evidence: At the same time, another political-minded Sony Classics film – Austrian director Michael Haneke's French-language thriller ""Cache (Hidden)"" – continued to do well as it increased from 10 to 22 screens.
+Evaluate faithfulness...and see how this relates to the film's reception.
+Faithfulness: 3/5
+Faithfulness to the original plan: 4/5
+Faithfulness to the marketing strategy: 5/5
+Faithfulness to the audience's expectations: 3/5
+",1.2032196521759033
+wice_3217,meta-llama/Llama-3.2-1B-Instruct,"On review aggregator website Rotten Tomatoes, the film has an average rating of 5.1/10.","They disappeared that night, and were never seen again.","Claim: On review aggregator website Rotten Tomatoes, the film has an average rating of 5.1/10.
+Evidence: They disappeared that night, and were never seen again.
+Evaluate faithfulness... or lack thereof.
+The film's plot revolves around a group of high school students who are trying to survive in the wilderness after their school bus breaks down. The group consists of a diverse set of characters, including a popular jock, a rebellious outcast, and a quiet, reserved girl.",1.2341196537017822
+wice_2686,meta-llama/Llama-3.2-1B-Instruct,Boyer claimed he decided to drop publication.,"and Charles H. Hopkins, San Francisco Call, Dec 15, 1896.","Claim: Boyer claimed he decided to drop publication.
+Evidence: and Charles H. Hopkins, San Francisco Call, Dec 15, 1896.
+Evaluate faithfulness...I'm sorry to say, I'm not going to be able to do that today. I have a prior commitment. I'll try to get to it when I can. I'm not sure if I'll be able to complete the assignment. I have a lot of work to do. I'm",1.2154266834259033
+wice_938,meta-llama/Llama-3.2-1B-Instruct,The SAS student body is made up of over 60 nationalities.,"School Finance 601: Finance@SAS and the Nonprofit Tradition August 19, 2016 Welcome back from summer break, and to our new families, welcome to SAS!","Claim: The SAS student body is made up of over 60 nationalities.
+Evidence: School Finance 601: Finance@SAS and the Nonprofit Tradition August 19, 2016 Welcome back from summer break, and to our new families, welcome to SAS!
+Evaluate faithfulness... of the student body to the nation of origin.
+Question: What is the approximate number of nationalities represented in the student body of the SAS student body?
+Answer: According to the provided text, the SAS student body is made up of over 60 nationalities. Therefore, the claim is true.
+",1.462517499923706
+wice_551,meta-llama/Llama-3.2-1B-Instruct,"Today, CBL has 7 visiting PhD-level scientists.","#### Faculty Meet the faculty focused on ecosystem studies and restoration, fisheries science, and environmental chemistry and toxicology.","Claim: Today, CBL has 7 visiting PhD-level scientists.
+Evidence: #### Faculty Meet the faculty focused on ecosystem studies and restoration, fisheries science, and environmental chemistry and toxicology.
+Evaluate faithfulness... or lack thereof in the claim. **The claim is true.** The university has a faculty of 7 visiting PhD-level scientists, as stated in the faculty profile on the CBL website. **The claim is not true.** The university has a faculty of 7 visiting PhD-level scientists,",1.5551109313964844
+wice_1894,meta-llama/Llama-3.2-1B-Instruct,The revised version was premiered by Gustavo Dudamel.,"They're inseparable in a way, and I often think about these gestures in terms of the physical impact they're going to have, the visual impact.","Claim: The revised version was premiered by Gustavo Dudamel.
+Evidence: They're inseparable in a way, and I often think about these gestures in terms of the physical impact they're going to have, the visual impact.
+Evaluate faithfulness... to the original.
+In this response, the author is arguing that the revised version of the musical is faithful to the original, and that Gustavo Dudamel's premiere was a good example of this. The author is using the phrase ""faithfulness to the original"" to describe the extent to which the",1.4525089263916016
+wice_2969,meta-llama/Llama-3.2-1B-Instruct,The Houhu Seashore Park is in Taiwan.,Previous List Next::: ### Nearby Attractions 90 Accommodation 180 ### Weather Forecast Today 多雲 26-34°C 30%08/23 晴 28-34°C 0%08/24 晴 28-35°C 70% ### Popular Attractions ## Zhaishan Tunnel ## Kinmen Kaoliang Liquor Inc. ## Mofan Street ## Juguang Tower ## Shuitou Village ### Nearby ### Oucuo Village 1.63 km ### Kinmen Kaoliang Liquor Inc. 1.7 km ### Kinmen Shangyi Airport 2.08 km ### Marquis of Horse Pasturage Shrine in Mount Fenglien 2.26 kmTop,"Claim: The Houhu Seashore Park is in Taiwan.
+Evidence: Previous List Next::: ### Nearby Attractions 90 Accommodation 180 ### Weather Forecast Today 多雲 26-34°C 30%08/23 晴 28-34°C 0%08/24 晴 28-35°C 70% ### Popular Attractions ## Zhaishan Tunnel ## Kinmen Kaoliang Liquor Inc. ## Mofan Street ## Juguang Tower ## Shuitou Village ### Nearby ### Oucuo Village 1.63 km ### Kinmen Kaoliang Liquor Inc. 1.7 km ### Kinmen Shangyi Airport 2.08 km ### Marquis of Horse Pasturage Shrine in Mount Fenglien 2.26 kmTop
+Evaluate faithfulness... or lack thereof. The claim is based on the location of the Houhu Seashore Park in Taiwan, which is indeed located in Taiwan. However, the evidence provided is a list of nearby attractions and weather forecast, which is not a reliable source of information about the park. Additionally, the list",1.2337312698364258
+wice_1319,meta-llama/Llama-3.2-1B-Instruct,Trove includes content from many museums.,[NAD:TR] Wagga Wagga Agricultural Institute Library [NAD:WA] Wollongbar Primary Industries Institute Library.,"Claim: Trove includes content from many museums.
+Evidence: [NAD:TR] Wagga Wagga Agricultural Institute Library [NAD:WA] Wollongbar Primary Industries Institute Library.
+Evaluate faithfulness... (answer: High)
+The evidence shows that the Wagga Wagga Agricultural Institute Library has a collection of books and other materials that include content from museums, and the Wollongbar Primary Industries Institute Library has a collection of books and other materials that include content from museums. This suggests that the Tro",1.2213082313537598
+wice_2041,meta-llama/Llama-3.2-1B-Instruct,Ko-Yung Tung was an original Board member.,"He was also founding Executive Director of UNAIDS and Under Secretary-General of the United Nations (1995-2008), and has served in numerous other international and academic leadership roles.","Claim: Ko-Yung Tung was an original Board member.
+Evidence: He was also founding Executive Director of UNAIDS and Under Secretary-General of the United Nations (1995-2008), and has served in numerous other international and academic leadership roles.
+Evaluate faithfulness... to the claim?
+Ko-Yung Tung was indeed a founding Executive Director of UNAIDS and Under Secretary-General of the United Nations. However, I could not find any evidence that he was an original Board member of the Board of Directors of the World Health Organization (WHO). While he has",1.2148468494415283
+wice_732,meta-llama/Llama-3.2-1B-Instruct,The film is set in DuPage County.,"""It gives examples of how teens might be in crisis and what some possibilities might be to help.""","Claim: The film is set in DuPage County.
+Evidence: ""It gives examples of how teens might be in crisis and what some possibilities might be to help.""
+Evaluate faithfulness... or lack thereof. Faithfulness is the extent to which a work accurately represents its subject matter. This essay will examine the film ""The Breakfast Club"" and evaluate its faithfulness to the subject matter of high school cliques and social issues in 1980s suburban America. While the film does accurately",1.2098031044006348
+wice_1309,meta-llama/Llama-3.2-1B-Instruct,"On 26 December, he scored on his first Premier League start of the season.",What is the team news?,"Claim: On 26 December, he scored on his first Premier League start of the season.
+Evidence: What is the team news?
+Evaluate faithfulness... I mean, the team's commitment to their players. The team news is that on 26 December, he scored on his first Premier League start of the season. (The team news is the information about the match that has just taken place.) In this case, the team news is that the player",1.195481777191162
+wice_2561,meta-llama/Llama-3.2-1B-Instruct,He also spent time with Selangor FA in the Malaysian league.,It doesn't get any easier!,"Claim: He also spent time with Selangor FA in the Malaysian league.
+Evidence: It doesn't get any easier!
+Evaluate faithfulness... or lack thereof.
+Claim: He spent time with Selangor FA in the Malaysian league.
+Evidence: He played for the club in 2011.
+Faithfulness: 8/10
+He played for Selangor FA in 2011, but I'm not aware of any other",1.2020063400268555
+wice_2941,meta-llama/Llama-3.2-1B-Instruct,"He was educated at St. Patrick's College, Maynooth.","Living, as he did, in a period of intense political ferment, Archbishop Walsh took an active part in public affairs - educational, political and social.","Claim: He was educated at St. Patrick's College, Maynooth.
+Evidence: Living, as he did, in a period of intense political ferment, Archbishop Walsh took an active part in public affairs - educational, political and social.
+Evaluate faithfulness...of the evidence to the claim.
+Faithfulness to the claim = 1
+Faithfulness to the claim = 0
+Reasoning:
+Faithfulness to the claim = 1
+The evidence is clearly specific and detailed, indicating that Archbishop Walsh was educated at St. Patrick's College",1.2239699363708496
+wice_1880,meta-llama/Llama-3.2-1B-Instruct,Nicholas Coleridge was also at Trinity.,"""Quite apart from the material that is new, it is an exceptional book: simply as a piece of biographical art, I think it is in the very front rank of political biographies of the past 50 years – a very impressive piece of work.""","Claim: Nicholas Coleridge was also at Trinity.
+Evidence: ""Quite apart from the material that is new, it is an exceptional book: simply as a piece of biographical art, I think it is in the very front rank of political biographies of the past 50 years – a very impressive piece of work.""
+Evaluate faithfulness... 
+Faithfulness: 9/10 
+Coleridge's book is an outstanding work of political biography, but some of the new material may be considered faithless by traditionalists who value the original work. The fact that Coleridge has incorporated new research and perspectives into the book is to",1.2930123805999756
+wice_2450,meta-llama/Llama-3.2-1B-Instruct,Gun Runner has one white sock.,The Winchell name was first associated with sugary treats.,"Claim: Gun Runner has one white sock.
+Evidence: The Winchell name was first associated with sugary treats.
+Evaluate faithfulness... or lack thereof.
+Faithfulness: Not very. The Winchell name is not associated with sugary treats, but rather with guns. This lack of association is not only unusual, but also somewhat disturbing. The fact that the name is so closely tied to guns is not only confusing, but",1.5353281497955322

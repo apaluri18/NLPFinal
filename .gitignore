@@ -11,8 +11,6 @@ venv/
 .conda/
 
 # Data and Model Weights
-data/
-*.csv
 *.json
 *.pt
 *.safetensors

@@ -23,3 +23,23 @@ report/*.out
 report/*.bbl
 report/*.blg
 report/*.synctex.gz
+
+# Datasets and presentation video recordings
+data/raw/
+data/processed/
+*.csv
+!data/ground_truth/e5_top3_evaluations.csv
+*.mp4
+*.mov
+*.mkv
+
+# Root and nested LaTeX auxiliary files
+*.aux
+*.log
+*.out
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.synctex.gz
+EOF
